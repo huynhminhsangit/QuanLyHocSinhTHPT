@@ -23,7 +23,7 @@ namespace BUS
         {
             return dal.LayDSLopTheoNamHoc(pMaNamHoc);
         }
-        // Hàm lấy danh sách lớp theo năm học va khoi
+        // Hàm lấy danh sách lớp theo năm học va khối
         public DataTable LayDSLop_TheoNamHoc_Khoi(string pMaNamHoc, string pMakhoi)
         {
             return dal.LayDSLopTheoNamHoc_Khoi(pMaNamHoc,pMakhoi);

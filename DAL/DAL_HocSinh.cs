@@ -32,7 +32,7 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
@@ -47,7 +47,8 @@ namespace DAL
             da.Fill(ds, "HOCSINH");
             return ds.Tables["HOCSINH"];
         }
-        public List<DTO_HocSinh> LayList_HocSinh_LopHoc(string maLop)
+        // Hàm lấy danh sách học sinh theo lớp
+        public List<DTO_HocSinh> LayDS_HocSinh_LopHoc(string maLop)
         {
             string sql = string.Format("SELECT pl.STT, hs.* "
                                        + "FROM PHANLOP pl LEFT JOIN HOCSINH hs ON pl.MaHocSinh = hs.MaHocSinh "
@@ -68,7 +69,8 @@ namespace DAL
             CloseConnect();
             return listHS;
         }
-        public DataTable LayDsHocSinhTheoMaNamHocMaLop(String pMaNamHoc, String pMaLop)
+        // Hàm lấy danh sách học sinh theo mã năm học, mã lớp
+        public DataTable LayDsHocSinhTheoMaNamHocMaLop(string pMaNamHoc, string pMaLop)
         {
             SqlDataAdapter da = new SqlDataAdapter("SELECT hs.HOTENHOCSINH, l.TENLOP" +
                                                    "FROM HOCSINH hs, PHANLOP pl, LOP l, NAMHOC nh" +
@@ -78,6 +80,7 @@ namespace DAL
             da.Fill(ds, "HOCSINH");
             return ds.Tables["HOCSINH"];
         }
+        // Hàm thêm dữ liệu bằng DTO
         public void Them(DTO_HocSinh pkhocsinh)
         {
 
@@ -106,6 +109,7 @@ namespace DAL
             da.Update(ds, "HOCSINH");
 
         }
+        // Hàm kiểm tra khóa chính
         public bool KT_KhoaChinh(String pMa)
         {
             //b1
@@ -135,6 +139,7 @@ namespace DAL
 
             }
         }
+        // Hàm tìm kiếm học sinh theo mã
 	    public DataTable TimKiem_HocSinh(string pMaHocSinh)
         {
             //B1

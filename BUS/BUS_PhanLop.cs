@@ -18,17 +18,14 @@ namespace BUS
         {
             return dal.LoadDataIntoDGVPhanLop();
         }
+        // Hàm Insert, Update, Delete dựa vào lưới
         public bool Update_All(DataTable dt)
         {
             return dal.Update_All(dt);
         }
-        public DataTable Timkiem_phanlop(string pMaLOP)
+        public DataTable LayDSHocSinhTheoMaLopMaKhoiMaNH(string pMaLop)
         {
-            return dal.Timkiem_phanlop(pMaLOP);
-        }
-        public DataTable Xemketqua_theolop(string pMaLOP)
-        {
-            return dal.Xemketqua_theolop(pMaLOP);
+            return dal.TimkiemThongTinHocSinhTheoLop_Khoi_NamHoc(pMaLop);
         }
     }
 }

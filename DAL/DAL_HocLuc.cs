@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DAL_HocLuc : DB_Connection
     {
-        // Hàm Load dữ liệu lên DataGridView_NamHoc
+        // Hàm Load dữ liệu lên DataGridView_HocLuc
         public DataTable LoadDataIntoDGVHocLuc()
         {
             SqlDataAdapter da = new SqlDataAdapter("Select * From HOCLUC", connectionsql);
@@ -32,7 +32,7 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }

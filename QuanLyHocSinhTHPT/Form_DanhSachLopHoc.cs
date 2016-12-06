@@ -16,12 +16,14 @@ namespace QuanLyHocSinhTHPT
 {
     public partial class Form_DanhSachLopHoc : Office2007Form
     {
+        #region Toàn cục
         BUS_Lop busLop = new BUS_Lop();
-        BUS_HocSinh bus_hocsinh = new BUS_HocSinh();
-        BUS_KhoiLop bus_khoi = new BUS_KhoiLop();
-        BUS_NamHoc bus_Namhoc = new BUS_NamHoc();
-        BUS_PhanLop bus_phanlop = new BUS_PhanLop();
-   
+        BUS_HocSinh busHocSinh = new BUS_HocSinh();
+        BUS_KhoiLop busKhoiLop = new BUS_KhoiLop();
+        BUS_NamHoc busNamHoc = new BUS_NamHoc();
+        BUS_PhanLop busPhanLop = new BUS_PhanLop();
+        #endregion
+        #region Load
         public Form_DanhSachLopHoc()
         {
             InitializeComponent();
@@ -61,43 +63,38 @@ namespace QuanLyHocSinhTHPT
         public void LoadDataIntoCombobox()
         {
             // cbb_namhoc
-            cbb_namhoc.DataSource = bus_Namhoc.LoadDataInto_DGVNamHoc();
+            cbb_namhoc.DataSource = busNamHoc.LoadDataInto_DGVNamHoc();
             cbb_namhoc.DisplayMember = "TENNAMHOC";
             cbb_namhoc.ValueMember = "MANAMHOC";
             //cbb_khoi
-            cbb_khoilop.DataSource = bus_khoi.LoadDataInto_DGVKhoiLop();
+            cbb_khoilop.DataSource = busKhoiLop.LoadDataInto_DGVKhoiLop();
             cbb_khoilop.DisplayMember = "TENKHOILOP";
             cbb_khoilop.ValueMember = "MAKHOI";
             //cbblop
             LocDanhSachLopTheoNamHoc();
                   
-        }
-  
+        }  
 
         private void Form_DanhSachLopHoc_Load(object sender, EventArgs e)
         {
             LoadDataIntoCombobox();
         }
-
-        private void cbb_malop_SelectedIndexChanged(object sender, EventArgs e)//dùng combo ma lớp đe hien thị tìm kiếm 
-        {
-            dgv_lop.DataSource = busLop.TimKiem_TheoMaLop(cbb_lop.SelectedValue.ToString());
-        }
-
-        private void cbb_makhoi_SelectedIndexChanged(object sender, EventArgs e)//dùng combo ma khối đe hien thị tìm kiếm 
-        {
-            LocDanhSachLopTheoNamHoc_Khoi();
-        }
-
-        private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)//dùng combo nam hoc de hien thi tim kiem tren datagridview
+        #endregion
+        #region Xử lý lọc dữ liệu bằng cbb
+        private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)
         {
             LocDanhSachLopTheoNamHoc();
         }
 
-    
+        private void cbb_khoilop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LocDanhSachLopTheoNamHoc_Khoi();
+        }
 
-    
-
-       
+        private void cbb_lop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dgv_lop.DataSource = busLop.TimKiem_TheoMaLop(cbb_lop.SelectedValue.ToString());
+        }
+        #endregion
     }
 }

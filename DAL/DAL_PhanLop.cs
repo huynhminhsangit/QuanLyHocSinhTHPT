@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DAL_PhanLop : DB_Connection
     {
-        // Hàm Load dữ liệu lên DataGridView_DanToc
+        // Hàm Load dữ liệu lên DataGridView_PhanLop
         public DataTable LoadDataIntoDGVPhanLop()
         {
             SqlDataAdapter da = new SqlDataAdapter("Select * From PHANLOP", connectionsql);
@@ -32,12 +32,13 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
         }
-        public DataTable Timkiem_phanlop(string pMaLOP)
+        // Hàm lấy thông tin học sinh dựa vào lớp, khối, năm học
+        public DataTable TimkiemThongTinHocSinhTheoLop_Khoi_NamHoc(string pMaLOP)
         {
             //B1
             string selectstring = "SELECT MAHOCSINH, HOTENHOCSINH, TENGIOITINH, NGAYSINH, NOISINH, TENDANTOC, TENTONGIAO, TENDOITUONG, HOTENPHUHUYNH "
@@ -53,21 +54,6 @@ namespace DAL
             da_khoa.Fill(ds, "TTHOCSINH");
             //b5
             return ds.Tables["TTHOCSINH"];
-            //b6
-
-        }
-
-        public DataTable Xemketqua_theolop(string pMaLOP)
-        {
-            //B1
-            string selectstring = "SELECT * from DIEMSO ML where ML.MALOP in(select MALOP from PHANLOP  where MALOP='" + pMaLOP + "')";
-            //b3
-            SqlDataAdapter da_khoa = new SqlDataAdapter(selectstring, connectionsql);
-            //b4
-            DataSet ds = new DataSet();
-            da_khoa.Fill(ds, "KQDIEMSO");
-            //b5
-            return ds.Tables["KQDIEMSO"];
             //b6
 
         }

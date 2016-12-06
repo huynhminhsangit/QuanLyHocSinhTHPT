@@ -24,7 +24,7 @@ namespace BUS
         }
         public void them(DTO_Giaovien pkgiaovien)
         {
-            dal.them(pkgiaovien);
+            dal.Them(pkgiaovien);
         }
 	public DataTable TimKiem_TheoMaGV(string pMaGV)
         {

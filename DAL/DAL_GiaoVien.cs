@@ -32,12 +32,13 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
         }
-        public void them(DTO_Giaovien pkgiaovien)
+        // Hàm Thêm bằng DTO
+        public void Them(DTO_Giaovien pGiaoVien)
         {
             string s = "select * from GIAOVIEN";
             DataSet ds_giaovien = new DataSet();
@@ -45,17 +46,18 @@ namespace DAL
             da.Fill(ds_giaovien, "GIAOVIEN");
 
             DataRow newrow = ds_giaovien.Tables["GIAOVIEN"].NewRow();
-            newrow["MAGIAOVIEN"] = pkgiaovien.MaGiaoVien;
-            newrow["TENGIAOVIEN"] = pkgiaovien.HoTen;
-            newrow["MAGIOITINH"] = pkgiaovien.GioiTinh;
-            newrow["DIACHI"] = pkgiaovien.DiaChi;
-            newrow["DIENTHOAI"] = pkgiaovien.SoDienThoai;
-            newrow["MAMONHOC"] = pkgiaovien.MonHoc;
+            newrow["MAGIAOVIEN"] = pGiaoVien.MaGiaoVien;
+            newrow["TENGIAOVIEN"] = pGiaoVien.HoTen;
+            newrow["MAGIOITINH"] = pGiaoVien.GioiTinh;
+            newrow["DIACHI"] = pGiaoVien.DiaChi;
+            newrow["DIENTHOAI"] = pGiaoVien.SoDienThoai;
+            newrow["MAMONHOC"] = pGiaoVien.MonHoc;
             ds_giaovien.Tables["GIAOVIEN"].Rows.Add(newrow);
             SqlCommandBuilder cb = new SqlCommandBuilder(da);
             da.Update(ds_giaovien, "GIAOVIEN");
 
         }
+        // Hàm tìm kiếm theo mã giáo viên
         public DataTable TimKiemTheoMaGV(string pMaGV)
         {
             //B1

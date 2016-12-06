@@ -46,7 +46,7 @@ namespace BUS
         {
             var bangDiemHocKy = new List<DTO_BangDiemHocKy>();
             // Lấy ds học sinh của lớp
-            List<DTO_HocSinh> dsHocsinh = dalHocSinh.LayList_HocSinh_LopHoc(maLop);
+            List<DTO_HocSinh> dsHocsinh = dalHocSinh.LayDS_HocSinh_LopHoc(maLop);
             DTO_MonHoc_HeSo dsHeSoMonHoc = dalMonHoc.LayDTO_HeSoMonHoc();
             foreach (DTO_HocSinh hocsinh in dsHocsinh)
             {

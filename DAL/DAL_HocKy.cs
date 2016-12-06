@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DAL_HocKy : DB_Connection
     {
-       // Hàm Load dữ liệu lên DataGridView_NamHoc
+       // Hàm Load dữ liệu lên DataGridView_HocKy
         public DataTable LoadDataIntoDGVHocKy()
         {
             SqlDataAdapter da_HocKy = new SqlDataAdapter("Select * From HOCKY", connectionsql);
@@ -32,7 +32,7 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }

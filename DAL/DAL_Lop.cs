@@ -27,6 +27,7 @@ namespace DAL
             da_Lop.Fill(ds, "DSLOP");
             return ds.Tables["DSLOP"];
         }
+        // Hàm lọc danh sách lớp theo năm, theo khối
         public DataTable LayDSLopTheoNamHoc_Khoi(string pMaNamHoc, string pMakhoi)
         {
             SqlDataAdapter da_Lop = new SqlDataAdapter("Select MALOP, TENLOP From LOP WHERE MANAMHOC = '" + pMaNamHoc + "' and MAKHOI = '"+pMakhoi+"' " , connectionsql);
@@ -47,7 +48,7 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }

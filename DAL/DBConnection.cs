@@ -56,7 +56,7 @@ namespace DAL
                 // Thực thi
                 sqlTran.Commit();
             }
-            catch (SqlException ex)
+            catch
             {
                 // Roolback data
                 if (sqlTran != null)
@@ -88,7 +88,7 @@ namespace DAL
                 ap.Fill(tb);
                 return tb;
             }
-            catch (SqlException ex)
+            catch
             {              
                 return null;
             }
@@ -101,7 +101,7 @@ namespace DAL
                 var command = new SqlCommand(sql, connectionsql);
                 return command.ExecuteReader();
             }
-            catch (SqlException ex)
+            catch
             {
                 return null;
             }
@@ -114,7 +114,7 @@ namespace DAL
                 cmd = new SqlCommand(sql, connectionsql);
                 return cmd.ExecuteScalar();
             }
-            catch (SqlException ex)
+            catch
             {
                 return null;
             }

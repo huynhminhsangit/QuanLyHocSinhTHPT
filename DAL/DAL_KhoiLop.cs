@@ -32,12 +32,12 @@ namespace DAL
 
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
         }
-	public DataTable Timkiem_makhoi(string pMakhoi)
+	    public DataTable Timkiem_makhoi(string pMakhoi)
         {
             //B1
             string selectstring = "select * from LOP where MAKHOI='" + pMakhoi + "'";
@@ -51,21 +51,21 @@ namespace DAL
             //b6
 
         }
+        // Lấy lớp theo khối
+        public DataTable Laylop_trongkhoi(string pMakhoi, string pNamhoc)
+        {
+            //B1
+            string selectstring = "select TENLOP from LOP where MAKHOI='" + pMakhoi + "' AND MANAMHOC = '" + pNamhoc + "'" ;
+            //b3
+            SqlDataAdapter da_khoa = new SqlDataAdapter(selectstring, connectionsql);
+            //b4
+            DataSet ds = new DataSet();
+            da_khoa.Fill(ds, "LOP");
+            //b5
+            return ds.Tables["LOP"];
+            //b6
 
-    public DataTable Laylop_trongkhoi(string pMakhoi, string pNamhoc)
-    {
-        //B1
-        string selectstring = "select TENLOP from LOP where MAKHOI='" + pMakhoi + "' AND MANAMHOC = '" + pNamhoc + "'" ;
-        //b3
-        SqlDataAdapter da_khoa = new SqlDataAdapter(selectstring, connectionsql);
-        //b4
-        DataSet ds = new DataSet();
-        da_khoa.Fill(ds, "LOP");
-        //b5
-        return ds.Tables["LOP"];
-        //b6
-
-    }   
+        }   
  
     }
 }
