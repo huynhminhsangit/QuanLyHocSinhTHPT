@@ -1,0 +1,36 @@
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.dll
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb

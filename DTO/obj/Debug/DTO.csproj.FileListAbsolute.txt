@@ -1,0 +1,4 @@
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Debug\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Debug\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Debug\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Debug\DTO.pdb

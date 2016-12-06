@@ -1,0 +1,60 @@
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.exe.config
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\BUS.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DTO.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\BUS.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_Chinh.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Properties.Resources.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DangNhap.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.exe.config
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\BUS.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DAL.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\BUS.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Debug\DAL.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DangNhap.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DanToc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_DiemSo.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_HocKy.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_HocLuc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_HocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_Lop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_Main.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_MonHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_NamHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_PhanCong.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_PhanLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_TonGiao.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\QuanLyHocSinhTHPT.Properties.Resources.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Debug\GUI.csproj.GenerateResource.Cache

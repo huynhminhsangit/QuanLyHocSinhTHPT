@@ -1,0 +1,349 @@
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+D:\Study Data\Semester 5\Windows Form 2\Do An Windows Form 3\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+D:\Study Data\Semester 5\Windows Form 3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\phanminh\Desktop\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\phanminh\Desktop\New folder (2)\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\phanminh\Desktop\1.0.4\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoMon.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoMon.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\huynh\Documents\GitHub\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Desktop\DoAnWinForm3\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe.config
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\QuanLyHocSinhTHPT.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.dll
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.dll
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.dll
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\BUS.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DTO.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\bin\Release\DAL.pdb
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csprojResolveAssemblyReference.cache
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_DoiMatKhau.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_HuongDanSuDung.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_QuyDinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_ThongTinChuongTrinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Component.Form_TTTruongHoc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DangNhap.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachGiaoVien.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachLopHoc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanToc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DiemSo.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DoiTuong.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_GiaoVien.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HanhKiem.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocKy.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocLuc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_NamHoc.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanCong.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhanLop.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_PhuHuynh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TonGiao.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuGiaoVien.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_TraCuuHocSinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Properties.Resources.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\GUI.csproj.GenerateResource.Cache
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
