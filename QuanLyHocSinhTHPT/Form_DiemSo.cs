@@ -203,6 +203,7 @@ namespace QuanLyHocSinhTHPT
         #region Kiểm tra điểm nhập vào có hợp lệ không
         private void dgv_diemso_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
+
             double newDouble;
             if (e.ColumnIndex == dgv_diemso.Columns[2].Index)
             {
