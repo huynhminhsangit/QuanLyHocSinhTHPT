@@ -41,8 +41,7 @@ namespace BUS
         {
             return dal.Them(pDiemSo);
         }
-
-        public List<DTO_BangDiemHocKy> LayList_BangDiem_Lop_HocKy(string maLop, string maHocKy)
+        public List<DTO_BangDiemHocKy> LayBangDiem_Lop_HocKy(string maLop, string maHocKy)
         {
             var bangDiemHocKy = new List<DTO_BangDiemHocKy>();
             // Lấy ds học sinh của lớp
@@ -137,7 +136,7 @@ namespace BUS
                     bangDiemCaNhan.DTB = Math.Round(tongDiem / tongHeSo, 2);
                 }
                 else
-                    bangDiemCaNhan.DTB = "_";
+                    bangDiemCaNhan.DTB = "";
 
                 bangDiemHocKy.Add(bangDiemCaNhan);
             }

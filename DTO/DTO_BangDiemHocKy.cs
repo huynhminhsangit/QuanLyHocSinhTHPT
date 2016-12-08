@@ -10,7 +10,6 @@ namespace DTO
     {
         public string MaHocSinh { get; set; }
         public string HoTenHocSinh { get; set; }
-
         public object DiemToan { get; set; }
         public object DiemVatLy { get; set; }
         public object DiemHoaHoc { get; set; }
@@ -24,8 +23,6 @@ namespace DTO
         public object DiemQuocPhong { get; set; }
         public object DiemCongNghe { get; set; }
         public object DiemGDCDan { get; set; }
-
-
         public object DTB { get; set; }
     }
 }

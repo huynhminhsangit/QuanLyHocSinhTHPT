@@ -11,11 +11,9 @@ namespace DAL
 {
     public class DAL_DiemSo : DB_Connection
     {
-        #region hoan tat
-
         DataSet ds = new DataSet();
         DAL_MonHoc dalMonHoc = new DAL_MonHoc();
-        // Load data
+        // Load data.
         public DataTable LoadDataIntoDGVDiemSo()
         {
             SqlDataAdapter da = new SqlDataAdapter("Select MAHOCSINH, DIEMKTMIENG, DIEMKT15PH, DIEMKT45P, DIEMTHICUOIKY From DIEMSO", connectionsql);
@@ -23,7 +21,7 @@ namespace DAL
             da.Fill(ds, "DIEMSO");
             return ds.Tables["DIEMSO"];
         }
-        // Hàm thực hiện Insert, Update, Delete
+        // Hàm thực hiện Insert, Update, Delete.
         public bool Update_All(DataTable dt)
         {
             try
@@ -41,7 +39,7 @@ namespace DAL
                 return false;
             }
         }
-        // Lấy danh sách học sinh chưa có điểm
+        // Thêm dữ liệu vào bảng DIEMSO.
         public DataTable LayBangDiem_MonHoc_HocKy_Lop(string maLop, string maHocKy, string maMonHoc)
         {
             if (maLop == "" || maHocKy == "" || maMonHoc == "")
@@ -64,7 +62,7 @@ namespace DAL
                   + "AND bd.MaMonHoc = '" + maMonHoc + "' ";
             return GetTable(sql);
         }
-        // Lấy danh sách học sinh đã có điểm để chuẩn bị cập nhật
+        // Lấy danh sách học sinh chưa có điểm, chuẩn bị cập nhật.
         public DataTable LayDSHocSinhChuaCoDiem_TheoNamHoc_Lop_MonHoc_HocKy(string maNamHoc, string maLop, string maMonHoc, string maHocKy)
         {
             if (maNamHoc == "" || maLop == "" || maMonHoc == "" || maHocKy == "")
@@ -82,7 +80,7 @@ namespace DAL
 
             return ds.Tables["DSHOCSINH"];
         }       
-        // Thêm dữ liệu
+        // Thêm dữ liệu.
         public bool Them(DTO_DiemSo pDiemSo)
         {
             try
@@ -118,15 +116,14 @@ namespace DAL
                 return false;
             }
         }     
-        // Cập nhật điểm      
+        // Cập nhật điểm.     
         public bool LuuBangDiem_MonHoc_HocSinh_HocKy(DTO_DiemSo bd)
         {
-            //const int diemNull = -1;
             string sql = string.Format("UPDATE DIEMSO SET DIEMKTMIENG = '" + bd.DiemMieng + "', DIEMKT15PH = '" + bd.Diem15P + "', DIEMKT45P = '" + bd.Diem45P + "', DIEMTHICUOIKY = '" + bd.DiemThi + "', DTB = '" + bd.DiemTrungBinh + "' "
                                        + "WHERE MaHocSinh = '" + bd.MaHocSinh + "' AND MaHocKy = '" + bd.MaHocKy + "' AND MaLop = '" + bd.MaLop + "' AND MaMonHoc = '" + bd.MaMonHoc + "'");
             return ExecuteQuery(sql) > 0;
         }
-#endregion
+        // Lấy bảng điểm tất cả các môn theo học kỳ.
         public DataTable LayBangDiem_HocKy_HocSinh(string maLop, string maHocSinh, string maHocKy)
         {
             List<DTO_MonHoc> listMH = dalMonHoc.LayList_MonHoc();

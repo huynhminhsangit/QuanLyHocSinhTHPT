@@ -50,7 +50,6 @@
     <Compile Include="DAL_KetQuaHocTap.cs" />
     <Compile Include="DAL_KhoiLop.cs" />
     <Compile Include="DAL_KQCNTheoLop.cs" />
-    <Compile Include="DAL_KQCNTheoMon.cs" />
     <Compile Include="DAL_KQHKTheoLop.cs" />
     <Compile Include="DAL_DiemSo.cs" />
     <Compile Include="DAL_Lop.cs" />

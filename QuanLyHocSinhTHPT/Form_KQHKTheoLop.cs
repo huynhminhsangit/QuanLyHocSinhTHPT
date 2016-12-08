@@ -17,11 +17,13 @@ namespace QuanLyHocSinhTHPT
     public partial class Form_KQHKTheoLop : Office2007Form
     {
         #region Toàn cục
-        BUS_DiemSo bus = new BUS_DiemSo();
-        BUS_HocSinh busHS = new BUS_HocSinh();
-        BUS_Lop busLop = new BUS_Lop();
-        BUS_MonHoc busMonHoc = new BUS_MonHoc();
-        DTO_DiemSo pDiemSo = new DTO_DiemSo();
+        BUS_DiemSo      bus         = new BUS_DiemSo();
+        BUS_HocSinh     busHS       = new BUS_HocSinh();
+        BUS_Lop         busLop      = new BUS_Lop();
+        BUS_MonHoc      busMonHoc   = new BUS_MonHoc();
+        BUS_KQHKTheoLop busKQHK     = new BUS_KQHKTheoLop();
+        DTO_DiemSo      pDiemSo     = new DTO_DiemSo();
+        DTO_KetQuaHocKy pKQHKy      = new DTO_KetQuaHocKy();
         #endregion
         #region Load
         // Lọc lớp theo năm, tránh trùng lặp lại lớp
@@ -74,16 +76,58 @@ namespace QuanLyHocSinhTHPT
             LoadDataIntoCombobox();
         }
         #endregion
+        #region Lấy danh sách học sinh kèm bảng điểm 
+        private void ThemDuLieuVaoBangKQHK()
+        {
+            // Chắc chắn được lớp và học kỳ
+            if (cbb_lop.SelectedValue == null || cbb_hocky.SelectedValue == null)
+                return;
+            else
+            {
+                busKQHK.LayBangDiemHocKy_TheoLop(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+                busKQHK.LayDSHocSinhChuaCoDTB_TheoLop(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+                CapNhatDiemTB();
+            }
+        }
+        private void CapNhatDiemTB()
+        {
+            int rowCount = 0;
+
+            foreach (DataGridViewRow row in dgv_diemso.Rows)
+            {
+                //MessageBox.Show("" + rowCount);
+                try
+                {
+                    if (rowCount <= dgv_diemso.Rows.Count)
+                    {
+                        pKQHKy.MaHocSinh = row.Cells[0].Value.ToString();
+                        pKQHKy.MaHocKy = cbb_hocky.SelectedValue.ToString();
+                        pKQHKy.MaLop = cbb_lop.SelectedValue.ToString();
+                        pKQHKy.DiemTrungBinh = double.Parse(row.Cells[15].Value.ToString());
+                    }
+                    //MessageBox.Show("" + row.Cells[0].Value.ToString() + ";" + "" + cbb_hocky.SelectedValue.ToString() + ";" + cbb_lop.SelectedValue.ToString());
+                    //MessageBox.Show("" + row.Cells[15].Value.ToString());
+                    // Update điểm trung bình
+                    busKQHK.LuuBangDiem_HocSinh_HocKy(pKQHKy);
+                }
+                catch (Exception ex)
+                {
+                    //MessageBox.Show("Bạn nên nhập đầy đủ danh sách trước khi bấm lưu!", "CẢNH BÁO");
+                    //return;
+                }
+                rowCount++;
+            }
+        }
         private void LayBangDiemHSTheoLop_HocKy()
         {
-            // Chắc chắn được lớp, môn học và học kỳ
+            // Chắc chắn được lớp và học kỳ
             if (cbb_lop.SelectedValue == null || cbb_hocky.SelectedValue == null)
             {
                 dgv_diemso.DataSource = null;
                 return;
             }
             else
-                bus.LayList_BangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+                bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
             // Hiển thị năm học, học kỳ, lớp, giáo viên chủ nhiệm
             lbl_namhoc.Text = cbb_namhoc.Text;
             lbl_hocky.Text = cbb_hocky.Text;
@@ -99,16 +143,16 @@ namespace QuanLyHocSinhTHPT
         {
             LayBangDiemHSTheoLop_HocKy();
         }
-
         private void cbb_lop_SelectedIndexChanged(object sender, EventArgs e)
         {
             LayBangDiemHSTheoLop_HocKy();
             btn_hienthidanhsach.Enabled = true;
         }
-
         private void btn_hienthidanhsach_Click(object sender, EventArgs e)
         {
-            dgv_diemso.DataSource = bus.LayList_BangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+            dgv_diemso.DataSource = bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+            ThemDuLieuVaoBangKQHK();
         }
+        #endregion
     }
 }

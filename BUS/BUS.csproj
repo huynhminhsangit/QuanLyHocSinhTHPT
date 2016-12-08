@@ -50,6 +50,7 @@
     <Compile Include="BUS_KetQuaHocTap.cs" />
     <Compile Include="BUS_KhoiLop.cs" />
     <Compile Include="BUS_DiemSo.cs" />
+    <Compile Include="BUS_KQHKTheoLop.cs" />
     <Compile Include="BUS_MonHoc.cs" />
     <Compile Include="BUS_NamHoc.cs" />
     <Compile Include="BUS_Lop.cs" />

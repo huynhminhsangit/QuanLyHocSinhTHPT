@@ -43,6 +43,7 @@
     <Compile Include="DTO_DiemSo.cs" />
     <Compile Include="DTO_Giaovien.cs" />
     <Compile Include="DTO_HocSinh.cs" />
+    <Compile Include="DTO_KetQuaHocKy.cs" />
     <Compile Include="DTO_Lop.cs" />
     <Compile Include="DTO_MonHoc.cs" />
     <Compile Include="DTO_MonHoc_HeSo.cs" />
