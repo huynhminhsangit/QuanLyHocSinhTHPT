@@ -1,6 +1,6 @@
 ﻿namespace QuanLyHocSinhTHPT
 {
-    partial class Form_KQHKTheoLop
+    partial class Form_KQCN
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_KQHKTheoLop));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_KQCN));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.navPaneLeft = new DevComponents.DotNetBar.NavigationPane();
             this.navPanelNhapDuLieu = new DevComponents.DotNetBar.NavigationPanePanel();
             this.btn_hienthidanhsach = new DevComponents.DotNetBar.ButtonX();
@@ -43,24 +43,8 @@
             this.label03 = new System.Windows.Forms.Label();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItemNhapDuLieu = new DevComponents.DotNetBar.ButtonItem();
-            this.dgv_diemso = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_inbangdiem = new DevComponents.DotNetBar.ButtonX();
             this.lbl_gvcn = new DevComponents.DotNetBar.LabelX();
             this.labelX9 = new DevComponents.DotNetBar.LabelX();
             this.lbl_hocky = new DevComponents.DotNetBar.LabelX();
@@ -70,11 +54,16 @@
             this.lbl_namhoc = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.btn_inbangdiem = new DevComponents.DotNetBar.ButtonX();
+            this.dgv_diemso = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.navPaneLeft.SuspendLayout();
             this.navPanelNhapDuLieu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_diemso)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_diemso)).BeginInit();
             this.SuspendLayout();
             // 
             // navPaneLeft
@@ -93,9 +82,9 @@
             this.navPaneLeft.Name = "navPaneLeft";
             this.navPaneLeft.NavigationBarHeight = 68;
             this.navPaneLeft.Padding = new System.Windows.Forms.Padding(1);
-            this.navPaneLeft.Size = new System.Drawing.Size(201, 385);
+            this.navPaneLeft.Size = new System.Drawing.Size(201, 381);
             this.navPaneLeft.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.navPaneLeft.TabIndex = 4;
+            this.navPaneLeft.TabIndex = 5;
             // 
             // 
             // 
@@ -115,7 +104,7 @@
             this.navPaneLeft.TitlePanel.Style.GradientAngle = 90;
             this.navPaneLeft.TitlePanel.Style.MarginLeft = 4;
             this.navPaneLeft.TitlePanel.TabIndex = 0;
-            this.navPaneLeft.TitlePanel.Text = "Bảng điểm học kỳ";
+            this.navPaneLeft.TitlePanel.Text = "Bảng điểm cả năm";
             // 
             // navPanelNhapDuLieu
             // 
@@ -133,7 +122,7 @@
             this.navPanelNhapDuLieu.Margin = new System.Windows.Forms.Padding(4);
             this.navPanelNhapDuLieu.Name = "navPanelNhapDuLieu";
             this.navPanelNhapDuLieu.ParentItem = this.buttonItem1;
-            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(199, 285);
+            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(199, 281);
             this.navPanelNhapDuLieu.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navPanelNhapDuLieu.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navPanelNhapDuLieu.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -231,7 +220,7 @@
             this.buttonItem1.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem1.Image")));
             this.buttonItem1.Name = "buttonItem1";
             this.buttonItem1.OptionGroup = "navBar";
-            this.buttonItem1.Text = "Bảng điểm học kỳ";
+            this.buttonItem1.Text = "Bảng điểm cả năm";
             // 
             // buttonItemNhapDuLieu
             // 
@@ -240,191 +229,6 @@
             this.buttonItemNhapDuLieu.Name = "buttonItemNhapDuLieu";
             this.buttonItemNhapDuLieu.OptionGroup = "navBar";
             this.buttonItemNhapDuLieu.Text = "Nhập điểm học sinh";
-            // 
-            // dgv_diemso
-            // 
-            this.dgv_diemso.AllowUserToAddRows = false;
-            this.dgv_diemso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgv_diemso.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_diemso.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_diemso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_diemso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9,
-            this.Column10,
-            this.Column11,
-            this.Column12,
-            this.Column13,
-            this.Column14,
-            this.Column15,
-            this.Column16});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_diemso.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgv_diemso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgv_diemso.Location = new System.Drawing.Point(209, 109);
-            this.dgv_diemso.Margin = new System.Windows.Forms.Padding(4);
-            this.dgv_diemso.Name = "dgv_diemso";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_diemso.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_diemso.Size = new System.Drawing.Size(1003, 275);
-            this.dgv_diemso.TabIndex = 9;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MaHocSinh";
-            this.Column1.HeaderText = "Mã học sinh";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "HoTenHocSinh";
-            this.Column2.FillWeight = 300F;
-            this.Column2.HeaderText = "Họ & tên";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "DiemToan";
-            this.Column3.HeaderText = "Toán học";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "DiemVatLy";
-            this.Column4.HeaderText = "Vật lý";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "DiemHoaHoc";
-            this.Column5.HeaderText = "Hóa học";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "DiemSinhHoc";
-            this.Column6.HeaderText = "Sinh học";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column7.DataPropertyName = "DiemNguVan";
-            this.Column7.HeaderText = "Ngữ văn";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            // 
-            // Column8
-            // 
-            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column8.DataPropertyName = "DiemLichSu";
-            this.Column8.HeaderText = "Lịch sử";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
-            // Column9
-            // 
-            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column9.DataPropertyName = "DiemDiaLy";
-            this.Column9.HeaderText = "Địa lý";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            // 
-            // Column10
-            // 
-            this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column10.DataPropertyName = "DiemNgoaiNgu";
-            this.Column10.HeaderText = "Ngoại ngữ";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            // 
-            // Column11
-            // 
-            this.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column11.DataPropertyName = "DiemGDCDan";
-            this.Column11.HeaderText = "GD Công dân";
-            this.Column11.Name = "Column11";
-            this.Column11.ReadOnly = true;
-            // 
-            // Column12
-            // 
-            this.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column12.DataPropertyName = "DiemTinHoc";
-            this.Column12.HeaderText = "Tin học";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            // 
-            // Column13
-            // 
-            this.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column13.DataPropertyName = "DiemTheDuc";
-            this.Column13.HeaderText = "Thể dục";
-            this.Column13.Name = "Column13";
-            this.Column13.ReadOnly = true;
-            // 
-            // Column14
-            // 
-            this.Column14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column14.DataPropertyName = "DiemQuocPhong";
-            this.Column14.HeaderText = "Quốc phòng";
-            this.Column14.Name = "Column14";
-            this.Column14.ReadOnly = true;
-            // 
-            // Column15
-            // 
-            this.Column15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column15.DataPropertyName = "DiemCongNghe";
-            this.Column15.HeaderText = "Công nghệ";
-            this.Column15.Name = "Column15";
-            this.Column15.ReadOnly = true;
-            // 
-            // Column16
-            // 
-            this.Column16.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column16.DataPropertyName = "DTB";
-            this.Column16.HeaderText = "ĐTB học kỳ";
-            this.Column16.Name = "Column16";
-            this.Column16.ReadOnly = true;
             // 
             // panel1
             // 
@@ -440,11 +244,22 @@
             this.panel1.Controls.Add(this.lbl_namhoc);
             this.panel1.Controls.Add(this.labelX2);
             this.panel1.Controls.Add(this.labelX1);
-            this.panel1.Location = new System.Drawing.Point(209, 0);
+            this.panel1.Location = new System.Drawing.Point(209, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1003, 111);
-            this.panel1.TabIndex = 10;
+            this.panel1.Size = new System.Drawing.Size(823, 111);
+            this.panel1.TabIndex = 11;
+            // 
+            // btn_inbangdiem
+            // 
+            this.btn_inbangdiem.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_inbangdiem.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_inbangdiem.Location = new System.Drawing.Point(552, 61);
+            this.btn_inbangdiem.Name = "btn_inbangdiem";
+            this.btn_inbangdiem.Size = new System.Drawing.Size(200, 32);
+            this.btn_inbangdiem.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_inbangdiem.TabIndex = 9;
+            this.btn_inbangdiem.Text = "In bảng điểm";
             // 
             // lbl_gvcn
             // 
@@ -569,37 +384,113 @@
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "BẢNG ĐIỂM HỌC KỲ ";
             // 
-            // btn_inbangdiem
+            // dgv_diemso
             // 
-            this.btn_inbangdiem.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btn_inbangdiem.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btn_inbangdiem.Location = new System.Drawing.Point(669, 56);
-            this.btn_inbangdiem.Name = "btn_inbangdiem";
-            this.btn_inbangdiem.Size = new System.Drawing.Size(236, 32);
-            this.btn_inbangdiem.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_inbangdiem.TabIndex = 9;
-            this.btn_inbangdiem.Text = "In bảng điểm";
+            this.dgv_diemso.AllowUserToAddRows = false;
+            this.dgv_diemso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgv_diemso.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_diemso.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            this.dgv_diemso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_diemso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_diemso.DefaultCellStyle = dataGridViewCellStyle17;
+            this.dgv_diemso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.dgv_diemso.Location = new System.Drawing.Point(209, 114);
+            this.dgv_diemso.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_diemso.Name = "dgv_diemso";
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_diemso.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            this.dgv_diemso.Size = new System.Drawing.Size(824, 260);
+            this.dgv_diemso.TabIndex = 12;
             // 
-            // Form_KQHKTheoLop
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MaHocSinh";
+            this.Column1.HeaderText = "Mã học sinh";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "HoTenHocSinh";
+            this.Column2.FillWeight = 250F;
+            this.Column2.HeaderText = "Họ & tên";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.HeaderText = "ĐTB Học kỳ 1";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.HeaderText = "ĐTB Học kỳ 2";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.HeaderText = "ĐTB Cả năm";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Form_KQCN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1212, 385);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1051, 381);
             this.Controls.Add(this.dgv_diemso);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.navPaneLeft);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form_KQHKTheoLop";
-            this.Text = "BẢNG ĐIỂM HỌC KỲ";
-            this.Load += new System.EventHandler(this.Form_KQHKTheoLop_Load);
+            this.Name = "Form_KQCN";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "KẾT QUẢ CẢ NĂM";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form_KQCN_Load);
             this.navPaneLeft.ResumeLayout(false);
             this.navPanelNhapDuLieu.ResumeLayout(false);
             this.navPanelNhapDuLieu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_diemso)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_diemso)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -617,9 +508,8 @@
         private System.Windows.Forms.Label label03;
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.ButtonItem buttonItemNhapDuLieu;
-        private DevComponents.DotNetBar.Controls.DataGridViewX dgv_diemso;
         private System.Windows.Forms.Panel panel1;
-        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.ButtonX btn_inbangdiem;
         private DevComponents.DotNetBar.LabelX lbl_gvcn;
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.LabelX lbl_hocky;
@@ -628,23 +518,12 @@
         private DevComponents.DotNetBar.LabelX labelX5;
         private DevComponents.DotNetBar.LabelX lbl_namhoc;
         private DevComponents.DotNetBar.LabelX labelX2;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.Controls.DataGridViewX dgv_diemso;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
-        private DevComponents.DotNetBar.ButtonX btn_inbangdiem;
-
     }
 }

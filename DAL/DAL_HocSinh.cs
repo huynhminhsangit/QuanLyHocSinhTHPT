@@ -48,7 +48,7 @@ namespace DAL
             return ds.Tables["HOCSINH"];
         }
         // Hàm lấy danh sách học sinh theo lớp
-        public List<DTO_HocSinh> LayDS_HocSinh_LopHoc(string maLop)
+        public List<DTO_HocSinh> LayDSHocSinh_LopHoc(string maLop)
         {
             string sql = string.Format("SELECT pl.STT, hs.* "
                                        + "FROM PHANLOP pl LEFT JOIN HOCSINH hs ON pl.MaHocSinh = hs.MaHocSinh "

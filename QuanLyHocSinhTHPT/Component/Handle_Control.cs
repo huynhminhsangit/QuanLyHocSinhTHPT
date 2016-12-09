@@ -36,8 +36,8 @@ namespace QuanLyHocSinhTHPT.Component
         public static Form_KetQuaHocTap                 frmKetQuaHocTap         = null;
         public static Form_HanhKiem                     frmHanhKiem             = null;
         public static Form_HocLuc                       frmHocLuc               = null;
-        public static Form_KQHKTheoLop                  frmKQHKTheoLop          = null;
-        public static Form_KQCNTheoLop                  frmKQCNTheoLop          = null;
+        public static Form_KQHK                  frmKQHKTheoLop          = null;
+        public static Form_KQCN                  frmKQCNTheoLop          = null;
         public static Form_DanhSachGiaoVien             frmDSGiaoVien           = null;
         public static Form_DanhSachHocSinh              frmDSHocSinh            = null;
         public static Form_DanhSachLopHoc               frmDSLopHoc             = null;
@@ -240,7 +240,7 @@ namespace QuanLyHocSinhTHPT.Component
         {
             if (frmKQHKTheoLop == null || frmKQHKTheoLop.IsDisposed)
             {
-                frmKQHKTheoLop = new Form_KQHKTheoLop();
+                frmKQHKTheoLop = new Form_KQHK();
                 frmKQHKTheoLop.MdiParent = Form_Main.ActiveForm;
                 frmKQHKTheoLop.Show();
             }
@@ -251,7 +251,7 @@ namespace QuanLyHocSinhTHPT.Component
         {
             if (frmKQCNTheoLop == null || frmKQCNTheoLop.IsDisposed)
             {
-                frmKQCNTheoLop = new Form_KQCNTheoLop();
+                frmKQCNTheoLop = new Form_KQCN();
                 frmKQCNTheoLop.MdiParent = Form_Main.ActiveForm;
                 frmKQCNTheoLop.Show();
             }

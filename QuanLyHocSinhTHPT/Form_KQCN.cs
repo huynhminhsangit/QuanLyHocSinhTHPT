@@ -14,16 +14,11 @@ using DTO;
 
 namespace QuanLyHocSinhTHPT
 {
-    public partial class Form_KQHKTheoLop : Office2007Form
+    public partial class Form_KQCN : Office2007Form
     {
         #region Toàn cục
-        BUS_DiemSo      bus         = new BUS_DiemSo();
-        BUS_HocSinh     busHS       = new BUS_HocSinh();
-        BUS_Lop         busLop      = new BUS_Lop();
-        BUS_MonHoc      busMonHoc   = new BUS_MonHoc();
-        BUS_KQHKTheoLop busKQHK     = new BUS_KQHKTheoLop();
-        DTO_DiemSo      pDiemSo     = new DTO_DiemSo();
-        DTO_KetQuaHocKy pKQHKy      = new DTO_KetQuaHocKy();
+        BUS_KQHKTheoLop bus = new BUS_KQHKTheoLop();
+        BUS_Lop busLop = new BUS_Lop();
         #endregion
         #region Load
         // Lọc lớp theo năm, tránh trùng lặp lại lớp
@@ -41,7 +36,7 @@ namespace QuanLyHocSinhTHPT
                 cbb_lop.DisplayMember = "TENLOP";
                 cbb_lop.ValueMember = "MALOP";
             }
-            
+
         }
         public void LoadDataIntoCombobox()
         {
@@ -50,7 +45,7 @@ namespace QuanLyHocSinhTHPT
             BUS_HocKy busHK = new BUS_HocKy();
             BUS_MonHoc busMH = new BUS_MonHoc();
             #endregion
-            #region Thêm điểm
+            #region Load data to cbb
             // cbb_namhoc
             cbb_namhoc.DataSource = busNH.LoadDataInto_DGVNamHoc();
             cbb_namhoc.DisplayMember = "TENNAMHOC";
@@ -63,12 +58,12 @@ namespace QuanLyHocSinhTHPT
             LocDanhSachLopTheoNamHoc();
             #endregion
         }
-        public Form_KQHKTheoLop()
+        public Form_KQCN()
         {
             InitializeComponent();
         }
 
-        private void Form_KQHKTheoLop_Load(object sender, EventArgs e)
+        private void Form_KQCN_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
 
@@ -76,49 +71,7 @@ namespace QuanLyHocSinhTHPT
             LoadDataIntoCombobox();
         }
         #endregion
-        #region Lấy danh sách học sinh kèm bảng điểm 
-        private void ThemDuLieuVaoBangKQHK()
-        {
-            // Chắc chắn được lớp và học kỳ
-            if (cbb_lop.SelectedValue == null || cbb_hocky.SelectedValue == null)
-                return;
-            else
-            {
-                busKQHK.LayBangDiemHocKy_TheoLop(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
-                busKQHK.LayDSHocSinhChuaCoDTB_TheoLop(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
-                CapNhatDiemTB();
-            }
-        }
-        private void CapNhatDiemTB()
-        {
-            int rowCount = 0;
-
-            foreach (DataGridViewRow row in dgv_diemso.Rows)
-            {
-                //MessageBox.Show("" + rowCount);
-                try
-                {
-                    if (rowCount <= dgv_diemso.Rows.Count)
-                    {
-                        pKQHKy.MaHocSinh = row.Cells[0].Value.ToString();
-                        pKQHKy.MaHocKy = cbb_hocky.SelectedValue.ToString();
-                        pKQHKy.MaLop = cbb_lop.SelectedValue.ToString();
-                        pKQHKy.DiemTrungBinh = double.Parse(row.Cells[15].Value.ToString());
-                    }
-                    //MessageBox.Show("" + row.Cells[0].Value.ToString() + ";" + "" + cbb_hocky.SelectedValue.ToString() + ";" + cbb_lop.SelectedValue.ToString());
-                    //MessageBox.Show("" + row.Cells[15].Value.ToString());
-                    // Update điểm trung bình
-                    busKQHK.LuuBangDiem_HocSinh_HocKy(pKQHKy);
-                }
-                catch (Exception ex)
-                {
-                    //MessageBox.Show("Bạn nên nhập đầy đủ danh sách trước khi bấm lưu!", "CẢNH BÁO");
-                    //return;
-                }
-                rowCount++;
-            }
-        }
-        private void LayBangDiemHSTheoLop_HocKy()
+        private void LayBangDiemTrungBinhHSTheoLop_HocKy()
         {
             // Chắc chắn được lớp và học kỳ
             if (cbb_lop.SelectedValue == null || cbb_hocky.SelectedValue == null)
@@ -127,7 +80,7 @@ namespace QuanLyHocSinhTHPT
                 return;
             }
             else
-                bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+                bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
             // Hiển thị năm học, học kỳ, lớp, giáo viên chủ nhiệm
             lbl_namhoc.Text = cbb_namhoc.Text;
             lbl_hocky.Text = cbb_hocky.Text;
@@ -137,22 +90,23 @@ namespace QuanLyHocSinhTHPT
         private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)
         {
             LocDanhSachLopTheoNamHoc();
-            LayBangDiemHSTheoLop_HocKy();
+            LayBangDiemTrungBinhHSTheoLop_HocKy();
         }
+
         private void cbb_hocky_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LayBangDiemHSTheoLop_HocKy();
+            LayBangDiemTrungBinhHSTheoLop_HocKy();
         }
+
         private void cbb_lop_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LayBangDiemHSTheoLop_HocKy();
+            LayBangDiemTrungBinhHSTheoLop_HocKy();
             btn_hienthidanhsach.Enabled = true;
         }
+
         private void btn_hienthidanhsach_Click(object sender, EventArgs e)
         {
-            dgv_diemso.DataSource = bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
-            ThemDuLieuVaoBangKQHK();
+            dgv_diemso.DataSource = bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
         }
-        #endregion
     }
 }

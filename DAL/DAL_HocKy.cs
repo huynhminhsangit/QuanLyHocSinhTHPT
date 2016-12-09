@@ -36,6 +36,52 @@ namespace DAL
             {
                 return false;
             }
-        }    
+        }
+        // Lấy hệ số học kỳ
+        public DTO_HocKy_HeSo LayHeSo_HocKy()
+        {
+            string sql = "SELECT MAHOCKY, HeSo FROM HOCKY";
+            // Mở kết nối
+            OpenConnect();
+            SqlDataReader dr = ExecuteReader(sql);
+            var dsHeSoHocKy = new DTO_HocKy_HeSo();
+            while (dr.Read())
+            {
+                double heso = Convert.ToDouble(dr["HeSo"]);
+                switch (dr["MaHocKy"].ToString())
+                {
+                    case "HK1":
+                        dsHeSoHocKy.HocKy_1 = heso;
+                        break;
+                    case "HK2":
+                        dsHeSoHocKy.HocKy_2 = heso;
+                        break;                  
+                }
+            }
+            // Đóng kết nối
+            CloseConnect();
+            return dsHeSoHocKy;
+        }
+        // Lấy List các học kỳ
+        public List<DTO_HocKy> LayList_HocKy()
+        {
+            string sql = string.Format("SELECT * FROM HOCKY");
+            // Mở kết nối
+            OpenConnect();
+            var listHocKy = new List<DTO_HocKy>();
+            DTO_HocKy hocKy;
+            SqlDataReader dr = ExecuteReader(sql);
+            while (dr.Read())
+            {
+                hocKy = new DTO_HocKy();
+                hocKy.MaHocKy = Convert.ToString(dr["MaHocKy"]);
+                hocKy.TenHocKy = Convert.ToString(dr["TenHocKy"]);
+                hocKy.HeSo = Convert.ToInt16(dr["HeSo"]);
+                listHocKy.Add(hocKy);
+            }
+            // Thực thi xong, đóng kết nối
+            CloseConnect();
+            return listHocKy;
+        }
     }
 }

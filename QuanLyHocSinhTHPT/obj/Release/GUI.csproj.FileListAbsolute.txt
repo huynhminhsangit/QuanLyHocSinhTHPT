@@ -330,8 +330,6 @@ C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHoc
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_HocSinh.resources
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KetQuaHocTap.resources
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KhoiLop.resources
-C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCNTheoLop.resources
-C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHKTheoLop.resources
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Lop.resources
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_Main.resources
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_MonHoc.resources
@@ -347,3 +345,5 @@ C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHoc
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.exe
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.pdb
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_DanhSachHocSinh.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQCN.resources
+C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\obj\Release\QuanLyHocSinhTHPT.Form_KQHK.resources

@@ -169,17 +169,17 @@
     <Compile Include="Form_KhoiLop.Designer.cs">
       <DependentUpon>Form_KhoiLop.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_KQCNTheoLop.cs">
+    <Compile Include="Form_KQCN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_KQCNTheoLop.Designer.cs">
-      <DependentUpon>Form_KQCNTheoLop.cs</DependentUpon>
+    <Compile Include="Form_KQCN.Designer.cs">
+      <DependentUpon>Form_KQCN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_KQHKTheoLop.cs">
+    <Compile Include="Form_KQHK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_KQHKTheoLop.Designer.cs">
-      <DependentUpon>Form_KQHKTheoLop.cs</DependentUpon>
+    <Compile Include="Form_KQHK.Designer.cs">
+      <DependentUpon>Form_KQHK.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Lop.cs">
       <SubType>Form</SubType>
@@ -300,11 +300,11 @@
     <EmbeddedResource Include="Form_KhoiLop.resx">
       <DependentUpon>Form_KhoiLop.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_KQCNTheoLop.resx">
-      <DependentUpon>Form_KQCNTheoLop.cs</DependentUpon>
+    <EmbeddedResource Include="Form_KQCN.resx">
+      <DependentUpon>Form_KQCN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_KQHKTheoLop.resx">
-      <DependentUpon>Form_KQHKTheoLop.cs</DependentUpon>
+    <EmbeddedResource Include="Form_KQHK.resx">
+      <DependentUpon>Form_KQHK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Lop.resx">
       <DependentUpon>Form_Lop.cs</DependentUpon>

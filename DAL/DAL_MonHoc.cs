@@ -52,7 +52,7 @@ namespace DAL
 
         }
         // Lấy danh sách môn học
-        public List<DTO_MonHoc> LayList_MonHoc(bool chiLayCacMonDangHoc = true)
+        public List<DTO_MonHoc> LayList_MonHoc()
         {
             string  sql = string.Format("SELECT MaMonHoc, TenMonHoc, SoTiet, HeSo FROM MONHOC");
             // Mở kết nối
@@ -74,7 +74,7 @@ namespace DAL
             return listMonHocDTO;
         }
         // Lấy hệ số môn học
-        public DTO_MonHoc_HeSo LayDTO_HeSoMonHoc()
+        public DTO_MonHoc_HeSo LayHeSo_MonHoc()
         {
             string sql = "SELECT MaMonHoc, HeSo FROM MONHOC";
             // Mở kết nối
