@@ -131,7 +131,7 @@
             this.navPaneLeft.Name = "navPaneLeft";
             this.navPaneLeft.NavigationBarHeight = 67;
             this.navPaneLeft.Padding = new System.Windows.Forms.Padding(1);
-            this.navPaneLeft.Size = new System.Drawing.Size(195, 596);
+            this.navPaneLeft.Size = new System.Drawing.Size(195, 617);
             this.navPaneLeft.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.navPaneLeft.TabIndex = 1;
             // 
@@ -183,7 +183,7 @@
             this.navPanelNhapDuLieu.Location = new System.Drawing.Point(1, 25);
             this.navPanelNhapDuLieu.Name = "navPanelNhapDuLieu";
             this.navPanelNhapDuLieu.ParentItem = this.buttonItemNhapDuLieu;
-            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(193, 503);
+            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(193, 524);
             this.navPanelNhapDuLieu.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navPanelNhapDuLieu.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navPanelNhapDuLieu.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -492,7 +492,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(796, 494);
+            this.groupBox.Size = new System.Drawing.Size(978, 515);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách học sinh";
@@ -611,13 +611,14 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_hocsinh.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_hocsinh.Size = new System.Drawing.Size(774, 429);
+            this.dgv_hocsinh.Size = new System.Drawing.Size(970, 450);
             this.dgv_hocsinh.TabIndex = 5;
             // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column1.DataPropertyName = "MAHOCSINH";
+            this.Column1.FillWeight = 50F;
             this.Column1.HeaderText = "Mã học sinh";
             this.Column1.Name = "Column1";
             // 
@@ -634,6 +635,7 @@
             this.Column3.DataPropertyName = "MAGIOITINH";
             this.Column3.DataSource = this.gIOITINHBindingSource;
             this.Column3.DisplayMember = "TENGIOITINH";
+            this.Column3.FillWeight = 50F;
             this.Column3.HeaderText = "Giới tính";
             this.Column3.Name = "Column3";
             this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -670,6 +672,7 @@
             this.Column6.DataPropertyName = "MADANTOC";
             this.Column6.DataSource = this.dANTOCBindingSource;
             this.Column6.DisplayMember = "TENDANTOC";
+            this.Column6.FillWeight = 70F;
             this.Column6.HeaderText = "Dân tộc";
             this.Column6.Name = "Column6";
             this.Column6.ValueMember = "MADANTOC";
@@ -685,6 +688,7 @@
             this.Column7.DataPropertyName = "MATONGIAO";
             this.Column7.DataSource = this.tONGIAOBindingSource;
             this.Column7.DisplayMember = "TENTONGIAO";
+            this.Column7.FillWeight = 70F;
             this.Column7.HeaderText = "Tôn giáo";
             this.Column7.Name = "Column7";
             this.Column7.ValueMember = "MATONGIAO";
@@ -700,6 +704,7 @@
             this.Column8.DataPropertyName = "MADOITUONG";
             this.Column8.DataSource = this.dOITUONGBindingSource;
             this.Column8.DisplayMember = "TENDOITUONG";
+            this.Column8.FillWeight = 70F;
             this.Column8.HeaderText = "Loại đối tượng";
             this.Column8.Name = "Column8";
             this.Column8.ValueMember = "MADOITUONG";
@@ -753,7 +758,7 @@
             this.bindingNavigatorHocSinh.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorHocSinh.Name = "bindingNavigatorHocSinh";
             this.bindingNavigatorHocSinh.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorHocSinh.Size = new System.Drawing.Size(788, 25);
+            this.bindingNavigatorHocSinh.Size = new System.Drawing.Size(970, 25);
             this.bindingNavigatorHocSinh.TabIndex = 6;
             this.bindingNavigatorHocSinh.Text = "bindingNavigatorHocSinh";
             // 
@@ -912,7 +917,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 641);
+            this.ClientSize = new System.Drawing.Size(1193, 683);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.navPaneLeft);
             this.DoubleBuffered = true;
@@ -1006,6 +1011,7 @@
         private ds_LoadDataIntoDBTableAdapters.DOITUONGTableAdapter dOITUONGTableAdapter;
         private System.Windows.Forms.BindingSource pHUHUYNHBindingSource;
         private ds_LoadDataIntoDBTableAdapters.PHUHUYNHTableAdapter pHUHUYNHTableAdapter;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_gioitinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column3;
@@ -1015,6 +1021,5 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn Column7;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column8;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column9;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_gioitinh;
     }
 }

@@ -42,13 +42,6 @@
             this.btn_luu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_thoat = new DevComponents.DotNetBar.ButtonItem();
             this.dgv_diemso = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigatorDiemSo = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -76,6 +69,13 @@
             this.cbb_lop = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.label03 = new System.Windows.Forms.Label();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_diemso)).BeginInit();
@@ -95,7 +95,7 @@
             this.groupBox.Controls.Add(this.bindingNavigatorDiemSo);
             this.groupBox.Location = new System.Drawing.Point(196, 0);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(910, 487);
+            this.groupBox.Size = new System.Drawing.Size(924, 494);
             this.groupBox.TabIndex = 2;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách học sinh";
@@ -206,74 +206,10 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_diemso.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_diemso.Size = new System.Drawing.Size(904, 433);
+            this.dgv_diemso.Size = new System.Drawing.Size(918, 440);
             this.dgv_diemso.TabIndex = 8;
             this.dgv_diemso.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_diemso_CellEndEdit);
             this.dgv_diemso.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgv_diemso_CellValidating);
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MAHOCSINH";
-            this.Column1.FillWeight = 45F;
-            this.Column1.HeaderText = "Mã học sinh";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "HOTENHOCSINH";
-            this.Column2.FillWeight = 80F;
-            this.Column2.HeaderText = "Họ tên học sinh";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "DIEMKTMIENG";
-            this.Column3.FillWeight = 75.21151F;
-            this.Column3.HeaderText = "Điểm miệng";
-            this.Column3.MaxInputLength = 4;
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "DIEMKT15PH";
-            this.Column4.FillWeight = 75.21151F;
-            this.Column4.HeaderText = "Điểm 15 phút";
-            this.Column4.MaxInputLength = 4;
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "DIEMKT45P";
-            this.Column5.FillWeight = 75.21151F;
-            this.Column5.HeaderText = "Điểm 45 phút";
-            this.Column5.MaxInputLength = 4;
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "DIEMTHICUOIKY";
-            this.Column6.FillWeight = 75.21151F;
-            this.Column6.HeaderText = "Điểm thi";
-            this.Column6.MaxInputLength = 4;
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column7.DataPropertyName = "DTB";
-            this.Column7.FillWeight = 75.21151F;
-            this.Column7.HeaderText = "Điểm trung bình";
-            this.Column7.MaxInputLength = 4;
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
             // 
             // bindingNavigatorDiemSo
             // 
@@ -302,7 +238,7 @@
             this.bindingNavigatorDiemSo.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorDiemSo.Name = "bindingNavigatorDiemSo";
             this.bindingNavigatorDiemSo.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorDiemSo.Size = new System.Drawing.Size(904, 25);
+            this.bindingNavigatorDiemSo.Size = new System.Drawing.Size(918, 25);
             this.bindingNavigatorDiemSo.TabIndex = 7;
             this.bindingNavigatorDiemSo.Text = "bindingNavigatorDiemSo";
             // 
@@ -436,7 +372,7 @@
             this.navPaneLeft.Name = "navPaneLeft";
             this.navPaneLeft.NavigationBarHeight = 67;
             this.navPaneLeft.Padding = new System.Windows.Forms.Padding(1);
-            this.navPaneLeft.Size = new System.Drawing.Size(190, 607);
+            this.navPaneLeft.Size = new System.Drawing.Size(190, 621);
             this.navPaneLeft.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.navPaneLeft.TabIndex = 3;
             // 
@@ -476,7 +412,7 @@
             this.navPanelNhapDuLieu.Location = new System.Drawing.Point(1, 25);
             this.navPanelNhapDuLieu.Name = "navPanelNhapDuLieu";
             this.navPanelNhapDuLieu.ParentItem = this.buttonItem1;
-            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(188, 514);
+            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(188, 528);
             this.navPanelNhapDuLieu.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navPanelNhapDuLieu.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navPanelNhapDuLieu.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -590,11 +526,76 @@
             this.buttonItem1.OptionGroup = "navBar";
             this.buttonItem1.Text = "Nhập điểm học sinh";
             // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MAHOCSINH";
+            this.Column1.FillWeight = 45F;
+            this.Column1.HeaderText = "Mã học sinh";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "HOTENHOCSINH";
+            this.Column2.FillWeight = 80F;
+            this.Column2.HeaderText = "Họ tên học sinh";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "DIEMKTMIENG";
+            this.Column3.FillWeight = 75.21151F;
+            this.Column3.HeaderText = "Điểm miệng";
+            this.Column3.MaxInputLength = 4;
+            this.Column3.Name = "Column3";
+            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "DIEMKT15PH";
+            this.Column4.FillWeight = 75.21151F;
+            this.Column4.HeaderText = "Điểm 15 phút";
+            this.Column4.MaxInputLength = 4;
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "DIEMKT45P";
+            this.Column5.FillWeight = 75.21151F;
+            this.Column5.HeaderText = "Điểm 45 phút";
+            this.Column5.MaxInputLength = 4;
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.DataPropertyName = "DIEMTHICUOIKY";
+            this.Column6.FillWeight = 75.21151F;
+            this.Column6.HeaderText = "Điểm thi";
+            this.Column6.MaxInputLength = 4;
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column7.DataPropertyName = "DTB";
+            this.Column7.FillWeight = 75.21151F;
+            this.Column7.HeaderText = "Điểm trung bình";
+            this.Column7.MaxInputLength = 4;
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            // 
             // Form_DiemSo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 607);
+            this.ClientSize = new System.Drawing.Size(1202, 621);
             this.Controls.Add(this.navPaneLeft);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;

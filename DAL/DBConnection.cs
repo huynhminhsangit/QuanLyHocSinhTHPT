@@ -70,6 +70,7 @@ namespace DAL
             // Trả về số record thực thi
             return numRecords;
         }
+        // Lấy bảng
         protected DataTable GetTable(string sql, bool setPropertiesDataTable = false)
         {
             try
@@ -106,6 +107,7 @@ namespace DAL
                 return null;
             }
         }
+        // Thực thi SQL
         protected object ExecuteScalar(string sql)
         {
             try

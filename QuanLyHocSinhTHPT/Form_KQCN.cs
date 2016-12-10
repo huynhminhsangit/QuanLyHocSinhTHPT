@@ -50,10 +50,6 @@ namespace QuanLyHocSinhTHPT
             cbb_namhoc.DataSource = busNH.LoadDataInto_DGVNamHoc();
             cbb_namhoc.DisplayMember = "TENNAMHOC";
             cbb_namhoc.ValueMember = "MANAMHOC";
-            // cbb_hocky
-            cbb_hocky.DataSource = busHK.LoadDataInto_DGVHocKy();
-            cbb_hocky.DisplayMember = "TENHOCKY";
-            cbb_hocky.ValueMember = "MAHOCKY";
             // cbb_lop
             LocDanhSachLopTheoNamHoc();
             #endregion
@@ -74,27 +70,21 @@ namespace QuanLyHocSinhTHPT
         private void LayBangDiemTrungBinhHSTheoLop_HocKy()
         {
             // Chắc chắn được lớp và học kỳ
-            if (cbb_lop.SelectedValue == null || cbb_hocky.SelectedValue == null)
+            if (cbb_lop.SelectedValue == null)
             {
                 dgv_diemso.DataSource = null;
                 return;
             }
             else
-                bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+                bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString());
             // Hiển thị năm học, học kỳ, lớp, giáo viên chủ nhiệm
             lbl_namhoc.Text = cbb_namhoc.Text;
-            lbl_hocky.Text = cbb_hocky.Text;
             lbl_lop.Text = cbb_lop.Text;
             lbl_gvcn.Text = busLop.LayTenGiaoVien_TheoMaLop(cbb_lop.SelectedValue.ToString());
         }
         private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)
         {
             LocDanhSachLopTheoNamHoc();
-            LayBangDiemTrungBinhHSTheoLop_HocKy();
-        }
-
-        private void cbb_hocky_SelectedIndexChanged(object sender, EventArgs e)
-        {
             LayBangDiemTrungBinhHSTheoLop_HocKy();
         }
 
@@ -106,7 +96,7 @@ namespace QuanLyHocSinhTHPT
 
         private void btn_hienthidanhsach_Click(object sender, EventArgs e)
         {
-            dgv_diemso.DataSource = bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+            dgv_diemso.DataSource = bus.LayBangDiemTB_Lop_HocKy(cbb_lop.SelectedValue.ToString());
         }
     }
 }

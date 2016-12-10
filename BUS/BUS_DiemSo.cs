@@ -148,9 +148,9 @@ namespace BUS
 
             return bangDiemHocKy;
         }
-        public DataTable LayBangDiemTBHocSinhTheoHocKy(string maLop, string maHocSinh, string maHocKy)
+        public DataTable LayBangDiemTBHocSinhTheoHocKy(string maLop, string maHocSinh)
         {
-            return dal.LayBangDiemTBHocSinhTheoHocKy(maLop, maHocSinh, maHocKy);
+            return dal.LayBangDiemTBHocSinhTheoHocKy(maLop, maHocSinh);
         }
     }
 }

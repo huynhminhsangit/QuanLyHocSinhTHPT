@@ -12,9 +12,10 @@ namespace BUS
 {
     public class BUS_KQHKTheoLop
     {
-        DAL_KQHKTheoLop dal = new DAL_KQHKTheoLop();
-        DAL_DiemSo dalDiemSo = new DAL_DiemSo();
-        DAL_HocSinh dalHocSinh = new DAL_HocSinh();
+        DAL_KQHKTheoLop     dal         = new DAL_KQHKTheoLop();
+        DAL_DiemSo          dalDiemSo   = new DAL_DiemSo();
+        DAL_HocSinh         dalHocSinh  = new DAL_HocSinh();
+        DAL_HocKy           dalHocKy    = new DAL_HocKy();
         public DataTable LayBangDiemHocKy_TheoLop(string maLop, string maHocKy)
         {
             return dal.LayBangDiemHocKyTheoLop(maLop, maHocKy);
@@ -27,12 +28,14 @@ namespace BUS
         {
             return dal.LuuBangDiemHocSinhHocKy(kqhk);
         }
-        public List<DTO_BangDiemCaNam> LayBangDiemTB_Lop_HocKy(string maLop, string maHocKy)
+        public List<DTO_BangDiemCaNam> LayBangDiemTB_Lop_HocKy(string maLop)
         {
             var bangDiemHocKy = new List<DTO_BangDiemCaNam>();
             // Lấy ds học sinh của lớp
             List<DTO_HocSinh> dsHocsinh = dalHocSinh.LayDSHocSinh_LopHoc(maLop);
-            DTO_HocKy_HeSo dsHeSoHocKy = new DTO_HocKy_HeSo();
+            // Lấy hệ số của học kỳ
+            DTO_HocKy_HeSo dsHeSoHocKy = dalHocKy.LayHeSo_HocKy();
+
             foreach (DTO_HocSinh hocsinh in dsHocsinh)
             {
                 var bangDiemCaNhan = new DTO_BangDiemCaNam
@@ -41,10 +44,10 @@ namespace BUS
                     HoTenHocSinh = hocsinh.HoTenHocSinh
                 };
                 // Tính điểm trung bình học kỳ
-                DataTable dtBangDiem = dalDiemSo.LayBangDiemTBHocSinhTheoHocKy(maLop, hocsinh.MaHocSinh, maHocKy);
+                DataTable dtBangDiem = dalDiemSo.LayBangDiemTBHocSinhTheoHocKy(maLop, hocsinh.MaHocSinh);
                 int soHocKy = dtBangDiem.Rows.Count;
                 int soHocKyDuDTB = 0;
-                double tongDTB = 0;
+                double tongDiemTB = 0;
                 double tongHeSo = 0;
                 double heso = 0;
                 foreach (DataRow dr in dtBangDiem.Rows)
@@ -68,17 +71,17 @@ namespace BUS
                     }
                     if (!Convert.ToString(dtb).Equals("_"))
                     {
-                        tongDTB += heso * Convert.ToDouble(dtb);
-                        tongHeSo += heso;
+                        tongDiemTB  += heso * Convert.ToDouble(dtb);
+                        tongHeSo    += heso;
                         soHocKyDuDTB++;
                     }
                 }
                 if (soHocKyDuDTB == soHocKy)
                 {
-                    bangDiemCaNhan.DTBCaNam = Math.Round(tongDTB / tongHeSo, 2);
+                    bangDiemCaNhan.DTBCaNam = Math.Round(tongDiemTB / tongHeSo, 2);
                 }
                 else
-                    bangDiemCaNhan.DTBCaNam = "";
+                    bangDiemCaNhan.DTBCaNam = "_";
 
                 bangDiemHocKy.Add(bangDiemCaNhan);
             }

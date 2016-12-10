@@ -17,9 +17,9 @@ namespace DAL
             if (maLop == "" || maHocKy == "")
                 return null;
             // Trước khi lấy, kiểm tra xem đã khởi tạo hay chưa? Nếu chưa thì khởi tạo
-            string sql = string.Format("INSERT INTO KETQUAHOCKY(MaHocSinh, MaHocKy, MaLop)"
+            string sql = string.Format("INSERT INTO KETQUAHOCKY(MaHocSinh, MaHocKy, MaLop) "
                                        + "SELECT distinct bd.MaHocSinh, bd.MaHocKy, bd.MaLop "
-                                       + "FROM DIEMSO bd LEFT JOIN KETQUAHOCKY kq ON bd.MaLop = bd.MaLop  "
+                                       + "FROM DIEMSO bd LEFT JOIN KETQUAHOCKY kq ON bd.MaLop = bd.MaLop "
                                        + "WHERE bd.MaLop = '" + maLop + "' AND bd.MaHocKy = '" + maHocKy + "'");
             ExecuteQuery(sql);
             // Lấy bảng điểm
@@ -35,7 +35,7 @@ namespace DAL
             if (maLop == "" || maHocKy == "")
                 return null;
             // Lấy bảng điểm
-            string sql = string.Format("SELECT DISTINCT kq.MAHOCSINH, hs.HoTenHocSinh, kq.DTB  "
+            string sql = string.Format("SELECT DISTINCT kq.MAHOCSINH, hs.HoTenHocSinh, kq.DTB "
                                       + "FROM DIEMSO bd, HOCSINH hs, KETQUAHOCKY kq "
                                       + "WHERE hs.MaHocSinh = kq.MAHOCSINH AND kq.MAHOCSINH = bd.MAHOCSINH "
                                       + "AND kq.MaLop = '" + maLop + "' AND kq.MaHocKy='" + maHocKy + "'");

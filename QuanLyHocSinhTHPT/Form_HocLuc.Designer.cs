@@ -42,6 +42,11 @@
             this.btn_luu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_thoat = new DevComponents.DotNetBar.ButtonItem();
             this.dgv_hocluc = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigatorHocLuc = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -58,11 +63,6 @@
             this.tsbtn_luu = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_capnhat = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_thoat = new System.Windows.Forms.ToolStripButton();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_hocluc)).BeginInit();
@@ -79,7 +79,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(788, 246);
+            this.groupBox.Size = new System.Drawing.Size(816, 246);
             this.groupBox.TabIndex = 5;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Xếp loại học lực";
@@ -154,6 +154,8 @@
             // dgv_hocluc
             // 
             this.dgv_hocluc.AllowUserToAddRows = false;
+            this.dgv_hocluc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv_hocluc.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -190,8 +192,45 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_hocluc.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_hocluc.Size = new System.Drawing.Size(780, 194);
+            this.dgv_hocluc.Size = new System.Drawing.Size(808, 194);
             this.dgv_hocluc.TabIndex = 5;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MAHOCLUC";
+            this.Column1.HeaderText = "Mã loại học lực";
+            this.Column1.MaxInputLength = 10;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "TENHOCLUC";
+            this.Column2.HeaderText = "Tên loại học lực";
+            this.Column2.MaxInputLength = 30;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "DIEMCANDUOI";
+            this.Column3.HeaderText = "Điểm cận dưới";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "DIEMCANTREN";
+            this.Column4.HeaderText = "Điểm cận trên";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "DIEMKHONGCHE";
+            this.Column5.HeaderText = "Điểm khống chế";
+            this.Column5.Name = "Column5";
             // 
             // bindingNavigatorHocLuc
             // 
@@ -222,7 +261,7 @@
             this.bindingNavigatorHocLuc.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorHocLuc.Name = "bindingNavigatorHocLuc";
             this.bindingNavigatorHocLuc.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorHocLuc.Size = new System.Drawing.Size(780, 25);
+            this.bindingNavigatorHocLuc.Size = new System.Drawing.Size(808, 25);
             this.bindingNavigatorHocLuc.TabIndex = 6;
             this.bindingNavigatorHocLuc.Text = "bindingNavigatorHocLuc";
             // 
@@ -357,48 +396,11 @@
             this.tsbtn_thoat.Text = "Thoát";
             this.tsbtn_thoat.Click += new System.EventHandler(this.tsbtn_thoat_Click);
             // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MAHOCLUC";
-            this.Column1.HeaderText = "Mã loại học lực";
-            this.Column1.MaxInputLength = 10;
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "TENHOCLUC";
-            this.Column2.HeaderText = "Tên loại học lực";
-            this.Column2.MaxInputLength = 30;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "DIEMCANDUOI";
-            this.Column3.HeaderText = "Điểm cận dưới";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "DIEMCANTREN";
-            this.Column4.HeaderText = "Điểm cận trên";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "DIEMKHONGCHE";
-            this.Column5.HeaderText = "Điểm khống chế";
-            this.Column5.Name = "Column5";
-            // 
             // Form_HocLuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 276);
+            this.ClientSize = new System.Drawing.Size(842, 290);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
