@@ -359,16 +359,9 @@ CREATE TABLE KETQUAHOCKY
 	CONSTRAINT F_KETQUAHOCKY_HS		FOREIGN KEY(MAHOCSINH)	REFERENCES HOCSINH(MAHOCSINH),
 	CONSTRAINT F_KETQUAHOCKY_LOP	FOREIGN KEY(MALOP)		REFERENCES LOP(MALOP)
 )
-INSERT INTO KETQUAHOCKY(MaHocSinh, MaHocKy, MaLop)
-SELECT distinct bd.MaHocSinh, bd.MaHocKy, bd.MaLop 
-FROM DIEMSO bd LEFT JOIN KETQUAHOCKY kq ON bd.MaLop = kq.MaLop 
-WHERE bd.MaLop = '14151001' AND bd.MaHocKy = 'HK2' 
---AND kq.MaHocSinh IN(select MaHocSinh FROM DIEMSO 
---										WHERE MaLop = '14151001' AND MaHocKy = 'HK2')
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+--/* OK */
+Create Table 
 
-Select * from KETQUAHOCKY
-Delete from KETQUAHOCKY
 
-SELECT hk.MAHOCKY FROM HOCKY hk  
-WHERE  hk.MAHOCKY NOT IN (SELECT bd.MAHOCKY FROM DIEMSO bd 
-							WHERE bd.MaHocKy = '' AND bd.MaLop = '' AND bd.MaHocSinh = '')
+

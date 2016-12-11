@@ -61,16 +61,10 @@
             this.btn_luu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_thoat = new DevComponents.DotNetBar.ButtonItem();
             this.dgv_lop = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.kHOILOPBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dsLoadDataIntoDBBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ds_LoadDataIntoDB = new QuanLyHocSinhTHPT.ds_LoadDataIntoDB();
-            this.Column4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.nAMHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.gIAOVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigatorKhoiLop = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -92,6 +86,12 @@
             this.nAMHOCTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.NAMHOCTableAdapter();
             this.gIAOVIENTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.GIAOVIENTableAdapter();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.navigationPane.SuspendLayout();
             this.navigationPanePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_siso)).BeginInit();
@@ -120,7 +120,7 @@
             this.navigationPane.Name = "navigationPane";
             this.navigationPane.NavigationBarHeight = 33;
             this.navigationPane.Padding = new System.Windows.Forms.Padding(1);
-            this.navigationPane.Size = new System.Drawing.Size(198, 479);
+            this.navigationPane.Size = new System.Drawing.Size(198, 486);
             this.navigationPane.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.navigationPane.TabIndex = 0;
             // 
@@ -166,7 +166,7 @@
             this.navigationPanePanel.Location = new System.Drawing.Point(1, 25);
             this.navigationPanePanel.Name = "navigationPanePanel";
             this.navigationPanePanel.ParentItem = this.buttonItem1;
-            this.navigationPanePanel.Size = new System.Drawing.Size(196, 420);
+            this.navigationPanePanel.Size = new System.Drawing.Size(196, 427);
             this.navigationPanePanel.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navigationPanePanel.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.navigationPanePanel.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -269,12 +269,13 @@
             this.numeric_siso.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.numeric_siso.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
             this.numeric_siso.Location = new System.Drawing.Point(3, 241);
-            this.numeric_siso.MaxValue = 100;
-            this.numeric_siso.MinValue = 0;
+            this.numeric_siso.MaxValue = 40;
+            this.numeric_siso.MinValue = 35;
             this.numeric_siso.Name = "numeric_siso";
             this.numeric_siso.ShowUpDown = true;
             this.numeric_siso.Size = new System.Drawing.Size(163, 23);
             this.numeric_siso.TabIndex = 11;
+            this.numeric_siso.Value = 35;
             // 
             // btn_themnamhoc
             // 
@@ -357,6 +358,7 @@
             this.txt_malop.Border.Class = "TextBoxBorder";
             this.txt_malop.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txt_malop.Location = new System.Drawing.Point(5, 30);
+            this.txt_malop.MaxLength = 8;
             this.txt_malop.Name = "txt_malop";
             this.txt_malop.Size = new System.Drawing.Size(161, 23);
             this.txt_malop.TabIndex = 1;
@@ -395,7 +397,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(729, 484);
+            this.groupBox.Size = new System.Drawing.Size(827, 491);
             this.groupBox.TabIndex = 4;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách các lớp";
@@ -510,34 +512,9 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_lop.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_lop.Size = new System.Drawing.Size(723, 426);
+            this.dgv_lop.Size = new System.Drawing.Size(821, 433);
             this.dgv_lop.TabIndex = 5;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MALOP";
-            this.Column1.HeaderText = "Mã Lớp";
-            this.Column1.MaxInputLength = 10;
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "TENLOP";
-            this.Column2.HeaderText = "Tên Lớp";
-            this.Column2.MaxInputLength = 30;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "MAKHOI";
-            this.Column3.DataSource = this.kHOILOPBindingSource;
-            this.Column3.DisplayMember = "TENKHOILOP";
-            this.Column3.HeaderText = "Khối";
-            this.Column3.Name = "Column3";
-            this.Column3.ValueMember = "MAKHOI";
+            this.dgv_lop.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgv_lop_CellValidating);
             // 
             // kHOILOPBindingSource
             // 
@@ -554,39 +531,10 @@
             this.ds_LoadDataIntoDB.DataSetName = "ds_LoadDataIntoDB";
             this.ds_LoadDataIntoDB.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "MANAMHOC";
-            this.Column4.DataSource = this.nAMHOCBindingSource;
-            this.Column4.DisplayMember = "TENNAMHOC";
-            this.Column4.HeaderText = "Năm học";
-            this.Column4.Name = "Column4";
-            this.Column4.ValueMember = "MANAMHOC";
-            // 
             // nAMHOCBindingSource
             // 
             this.nAMHOCBindingSource.DataMember = "NAMHOC";
             this.nAMHOCBindingSource.DataSource = this.dsLoadDataIntoDBBindingSource;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "SISO";
-            this.Column5.HeaderText = "Sĩ số";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "MAGIAOVIENCHUNHIEM";
-            this.Column6.DataSource = this.gIAOVIENBindingSource;
-            this.Column6.DisplayMember = "TENGIAOVIEN";
-            this.Column6.HeaderText = "Giáo Viên Chủ Nhiệm";
-            this.Column6.Name = "Column6";
-            this.Column6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column6.ValueMember = "MAGIAOVIEN";
             // 
             // gIAOVIENBindingSource
             // 
@@ -622,7 +570,7 @@
             this.bindingNavigatorKhoiLop.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorKhoiLop.Name = "bindingNavigatorKhoiLop";
             this.bindingNavigatorKhoiLop.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorKhoiLop.Size = new System.Drawing.Size(721, 25);
+            this.bindingNavigatorKhoiLop.Size = new System.Drawing.Size(819, 25);
             this.bindingNavigatorKhoiLop.TabIndex = 6;
             this.bindingNavigatorKhoiLop.Text = "bindingNavigatorNamHoc";
             // 
@@ -774,11 +722,67 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MALOP";
+            this.Column1.HeaderText = "Mã Lớp";
+            this.Column1.MaxInputLength = 10;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "TENLOP";
+            this.Column2.HeaderText = "Tên Lớp";
+            this.Column2.MaxInputLength = 30;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "MAKHOI";
+            this.Column3.DataSource = this.kHOILOPBindingSource;
+            this.Column3.DisplayMember = "TENKHOILOP";
+            this.Column3.HeaderText = "Khối";
+            this.Column3.Name = "Column3";
+            this.Column3.ValueMember = "MAKHOI";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "MANAMHOC";
+            this.Column4.DataSource = this.nAMHOCBindingSource;
+            this.Column4.DisplayMember = "TENNAMHOC";
+            this.Column4.HeaderText = "Năm học";
+            this.Column4.Name = "Column4";
+            this.Column4.ValueMember = "MANAMHOC";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "SISO";
+            this.Column5.HeaderText = "Sĩ số";
+            this.Column5.MaxInputLength = 2;
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.DataPropertyName = "MAGIAOVIENCHUNHIEM";
+            this.Column6.DataSource = this.gIAOVIENBindingSource;
+            this.Column6.DisplayMember = "TENGIAOVIEN";
+            this.Column6.HeaderText = "Giáo Viên Chủ Nhiệm";
+            this.Column6.Name = "Column6";
+            this.Column6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Column6.ValueMember = "MAGIAOVIEN";
+            // 
             // Form_Lop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 520);
+            this.ClientSize = new System.Drawing.Size(1047, 534);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.navigationPane);
             this.DoubleBuffered = true;
@@ -862,16 +866,16 @@
         private ds_LoadDataIntoDBTableAdapters.NAMHOCTableAdapter nAMHOCTableAdapter;
         private System.Windows.Forms.BindingSource gIAOVIENBindingSource;
         private ds_LoadDataIntoDBTableAdapters.GIAOVIENTableAdapter gIAOVIENTableAdapter;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_khoilop;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_giaovienchunhiem;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_namhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column3;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column6;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_khoilop;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_giaovienchunhiem;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_namhoc;
 
     }
 }

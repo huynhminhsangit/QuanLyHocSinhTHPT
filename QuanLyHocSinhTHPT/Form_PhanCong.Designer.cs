@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_PhanCong));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.navigationPane = new DevComponents.DotNetBar.NavigationPane();
             this.navigationPanePanel = new DevComponents.DotNetBar.NavigationPanePanel();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
@@ -53,17 +53,6 @@
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.groupBox = new System.Windows.Forms.GroupBox();
             this.ctx_menu = new DevComponents.DotNetBar.ContextMenuBar();
-            this.dgv_phancong = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.nAMHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ds_LoadDataIntoDB = new QuanLyHocSinhTHPT.ds_LoadDataIntoDB();
-            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.lOPBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Column4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.mONHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Column5 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.gIAOVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btn_menu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_themmoi = new DevComponents.DotNetBar.ButtonItem();
             this.btn_xoa = new DevComponents.DotNetBar.ButtonItem();
@@ -86,22 +75,41 @@
             this.tsbtn_luu = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_capnhat = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_thoat = new System.Windows.Forms.ToolStripButton();
+            this.dgv_phancong = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.contextMenuBar1 = new DevComponents.DotNetBar.ContextMenuBar();
+            this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();
+            this.ds_LoadDataIntoDB = new QuanLyHocSinhTHPT.ds_LoadDataIntoDB();
+            this.nAMHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nAMHOCTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.NAMHOCTableAdapter();
+            this.lOPBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lOPTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.LOPTableAdapter();
+            this.mONHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mONHOCTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.MONHOCTableAdapter();
+            this.gIAOVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gIAOVIENTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.GIAOVIENTableAdapter();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.navigationPane.SuspendLayout();
             this.navigationPanePanel.SuspendLayout();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorPhanCong)).BeginInit();
+            this.bindingNavigatorPhanCong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_phancong)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nAMHOCBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contextMenuBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ds_LoadDataIntoDB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nAMHOCBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lOPBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mONHOCBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gIAOVIENBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorPhanCong)).BeginInit();
-            this.bindingNavigatorPhanCong.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigationPane
@@ -117,7 +125,7 @@
             this.navigationPane.Name = "navigationPane";
             this.navigationPane.NavigationBarHeight = 33;
             this.navigationPane.Padding = new System.Windows.Forms.Padding(1);
-            this.navigationPane.Size = new System.Drawing.Size(189, 495);
+            this.navigationPane.Size = new System.Drawing.Size(207, 523);
             this.navigationPane.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.navigationPane.TabIndex = 2;
             // 
@@ -156,7 +164,7 @@
             this.navigationPanePanel.Location = new System.Drawing.Point(1, 1);
             this.navigationPanePanel.Name = "navigationPanePanel";
             this.navigationPanePanel.ParentItem = this.buttonItem1;
-            this.navigationPanePanel.Size = new System.Drawing.Size(187, 460);
+            this.navigationPanePanel.Size = new System.Drawing.Size(205, 488);
             this.navigationPanePanel.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navigationPanePanel.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.navigationPanePanel.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -188,7 +196,7 @@
             this.txt_stt.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txt_stt.Location = new System.Drawing.Point(4, 50);
             this.txt_stt.Name = "txt_stt";
-            this.txt_stt.Size = new System.Drawing.Size(147, 23);
+            this.txt_stt.Size = new System.Drawing.Size(165, 23);
             this.txt_stt.TabIndex = 33;
             // 
             // btn_themmonhoc
@@ -196,7 +204,7 @@
             this.btn_themmonhoc.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_themmonhoc.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_themmonhoc.Image = global::QuanLyHocSinhTHPT.Properties.Resources.add;
-            this.btn_themmonhoc.Location = new System.Drawing.Point(156, 213);
+            this.btn_themmonhoc.Location = new System.Drawing.Point(172, 213);
             this.btn_themmonhoc.Name = "btn_themmonhoc";
             this.btn_themmonhoc.Size = new System.Drawing.Size(20, 20);
             this.btn_themmonhoc.TabIndex = 28;
@@ -207,7 +215,7 @@
             this.btn_themlop.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_themlop.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_themlop.Image = global::QuanLyHocSinhTHPT.Properties.Resources.add;
-            this.btn_themlop.Location = new System.Drawing.Point(156, 160);
+            this.btn_themlop.Location = new System.Drawing.Point(172, 160);
             this.btn_themlop.Name = "btn_themlop";
             this.btn_themlop.Size = new System.Drawing.Size(20, 20);
             this.btn_themlop.TabIndex = 27;
@@ -218,7 +226,7 @@
             this.btn_themnamhoc.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_themnamhoc.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_themnamhoc.Image = global::QuanLyHocSinhTHPT.Properties.Resources.add;
-            this.btn_themnamhoc.Location = new System.Drawing.Point(156, 106);
+            this.btn_themnamhoc.Location = new System.Drawing.Point(172, 106);
             this.btn_themnamhoc.Name = "btn_themnamhoc";
             this.btn_themnamhoc.Size = new System.Drawing.Size(20, 20);
             this.btn_themnamhoc.TabIndex = 26;
@@ -232,7 +240,7 @@
             this.cbb_monhoc.ItemHeight = 17;
             this.cbb_monhoc.Location = new System.Drawing.Point(3, 210);
             this.cbb_monhoc.Name = "cbb_monhoc";
-            this.cbb_monhoc.Size = new System.Drawing.Size(147, 23);
+            this.cbb_monhoc.Size = new System.Drawing.Size(165, 23);
             this.cbb_monhoc.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbb_monhoc.TabIndex = 25;
             // 
@@ -244,7 +252,7 @@
             this.cbb_lop.ItemHeight = 17;
             this.cbb_lop.Location = new System.Drawing.Point(3, 157);
             this.cbb_lop.Name = "cbb_lop";
-            this.cbb_lop.Size = new System.Drawing.Size(147, 23);
+            this.cbb_lop.Size = new System.Drawing.Size(165, 23);
             this.cbb_lop.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbb_lop.TabIndex = 24;
             // 
@@ -256,7 +264,7 @@
             this.cbb_namhoc.ItemHeight = 17;
             this.cbb_namhoc.Location = new System.Drawing.Point(3, 103);
             this.cbb_namhoc.Name = "cbb_namhoc";
-            this.cbb_namhoc.Size = new System.Drawing.Size(147, 23);
+            this.cbb_namhoc.Size = new System.Drawing.Size(165, 23);
             this.cbb_namhoc.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbb_namhoc.TabIndex = 23;
             // 
@@ -294,7 +302,7 @@
             this.cbb_giaovien.ItemHeight = 17;
             this.cbb_giaovien.Location = new System.Drawing.Point(3, 263);
             this.cbb_giaovien.Name = "cbb_giaovien";
-            this.cbb_giaovien.Size = new System.Drawing.Size(147, 23);
+            this.cbb_giaovien.Size = new System.Drawing.Size(165, 23);
             this.cbb_giaovien.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbb_giaovien.TabIndex = 19;
             // 
@@ -304,7 +312,7 @@
             this.btn_luuds.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
             this.btn_luuds.Location = new System.Drawing.Point(3, 302);
             this.btn_luuds.Name = "btn_luuds";
-            this.btn_luuds.Size = new System.Drawing.Size(163, 23);
+            this.btn_luuds.Size = new System.Drawing.Size(189, 23);
             this.btn_luuds.TabIndex = 16;
             this.btn_luuds.Text = "Lưu danh sách";
             this.btn_luuds.Click += new System.EventHandler(this.btn_luuds_Click);
@@ -314,7 +322,7 @@
             this.btn_themgiaovien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_themgiaovien.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_themgiaovien.Image = global::QuanLyHocSinhTHPT.Properties.Resources.add;
-            this.btn_themgiaovien.Location = new System.Drawing.Point(156, 266);
+            this.btn_themgiaovien.Location = new System.Drawing.Point(172, 266);
             this.btn_themgiaovien.Name = "btn_themgiaovien";
             this.btn_themgiaovien.Size = new System.Drawing.Size(20, 20);
             this.btn_themgiaovien.TabIndex = 15;
@@ -360,14 +368,15 @@
             this.groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox.Controls.Add(this.contextMenuBar1);
+            this.groupBox.Controls.Add(this.dgv_phancong);
             this.groupBox.Controls.Add(this.ctx_menu);
             this.groupBox.Controls.Add(this.bindingNavigatorPhanCong);
-            this.groupBox.Controls.Add(this.dgv_phancong);
-            this.groupBox.Location = new System.Drawing.Point(203, 0);
+            this.groupBox.Location = new System.Drawing.Point(221, 0);
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(664, 495);
+            this.groupBox.Size = new System.Drawing.Size(688, 523);
             this.groupBox.TabIndex = 6;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách phân công giáo viên giảng dạy";
@@ -381,128 +390,6 @@
             this.ctx_menu.Stretch = true;
             this.ctx_menu.TabIndex = 0;
             this.ctx_menu.TabStop = false;
-            // 
-            // dgv_phancong
-            // 
-            this.dgv_phancong.AllowUserToAddRows = false;
-            this.dgv_phancong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgv_phancong.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_phancong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgv_phancong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_phancong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.ctx_menu.SetContextMenuEx(this.dgv_phancong, this.btn_menu);
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_phancong.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dgv_phancong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgv_phancong.Location = new System.Drawing.Point(2, 51);
-            this.dgv_phancong.Name = "dgv_phancong";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_phancong.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.dgv_phancong.Size = new System.Drawing.Size(658, 437);
-            this.dgv_phancong.TabIndex = 5;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "STT";
-            this.Column1.HeaderText = "STT";
-            this.Column1.MaxInputLength = 0;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "MANAMHOC";
-            this.Column2.DataSource = this.nAMHOCBindingSource;
-            this.Column2.DisplayMember = "TENNAMHOC";
-            this.Column2.HeaderText = "Năm Học";
-            this.Column2.Name = "Column2";
-            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column2.ValueMember = "MANAMHOC";
-            // 
-            // nAMHOCBindingSource
-            // 
-            this.nAMHOCBindingSource.DataMember = "NAMHOC";
-            this.nAMHOCBindingSource.DataSource = this.ds_LoadDataIntoDB;
-            // 
-            // ds_LoadDataIntoDB
-            // 
-            this.ds_LoadDataIntoDB.DataSetName = "ds_LoadDataIntoDB";
-            this.ds_LoadDataIntoDB.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "MALOP";
-            this.Column3.DataSource = this.lOPBindingSource;
-            this.Column3.DisplayMember = "TENLOP";
-            this.Column3.HeaderText = "Lớp Học";
-            this.Column3.Name = "Column3";
-            this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column3.ValueMember = "MALOP";
-            // 
-            // lOPBindingSource
-            // 
-            this.lOPBindingSource.DataMember = "LOP";
-            this.lOPBindingSource.DataSource = this.ds_LoadDataIntoDB;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "MAMONHOC";
-            this.Column4.DataSource = this.mONHOCBindingSource;
-            this.Column4.DisplayMember = "TENMONHOC";
-            this.Column4.HeaderText = "Môn Học";
-            this.Column4.Name = "Column4";
-            this.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column4.ValueMember = "MAMONHOC";
-            // 
-            // mONHOCBindingSource
-            // 
-            this.mONHOCBindingSource.DataMember = "MONHOC";
-            this.mONHOCBindingSource.DataSource = this.ds_LoadDataIntoDB;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "MAGIAOVIEN";
-            this.Column5.DataSource = this.gIAOVIENBindingSource;
-            this.Column5.DisplayMember = "MAGIAOVIEN";
-            this.Column5.HeaderText = "Giáo Viên";
-            this.Column5.Name = "Column5";
-            this.Column5.ValueMember = "MAGIAOVIEN";
-            // 
-            // gIAOVIENBindingSource
-            // 
-            this.gIAOVIENBindingSource.DataMember = "GIAOVIEN";
-            this.gIAOVIENBindingSource.DataSource = this.ds_LoadDataIntoDB;
             // 
             // btn_menu
             // 
@@ -586,7 +473,7 @@
             this.bindingNavigatorPhanCong.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorPhanCong.Name = "bindingNavigatorPhanCong";
             this.bindingNavigatorPhanCong.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorPhanCong.Size = new System.Drawing.Size(656, 25);
+            this.bindingNavigatorPhanCong.Size = new System.Drawing.Size(680, 25);
             this.bindingNavigatorPhanCong.TabIndex = 6;
             this.bindingNavigatorPhanCong.Text = "bindingNavigatorPhanCong";
             // 
@@ -721,27 +608,212 @@
             this.tsbtn_thoat.Text = "Thoát";
             this.tsbtn_thoat.Click += new System.EventHandler(this.tsbtn_thoat_Click);
             // 
+            // dgv_phancong
+            // 
+            this.dgv_phancong.AllowUserToAddRows = false;
+            this.dgv_phancong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgv_phancong.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_phancong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_phancong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_phancong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.ctx_menu.SetContextMenuEx(this.dgv_phancong, this.btn_menu);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_phancong.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_phancong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.dgv_phancong.Location = new System.Drawing.Point(4, 48);
+            this.dgv_phancong.Name = "dgv_phancong";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_phancong.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_phancong.Size = new System.Drawing.Size(680, 468);
+            this.dgv_phancong.TabIndex = 7;
+            // 
+            // contextMenuBar1
+            // 
+            this.contextMenuBar1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.contextMenuBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem2});
+            this.contextMenuBar1.Location = new System.Drawing.Point(172, 154);
+            this.contextMenuBar1.Name = "contextMenuBar1";
+            this.contextMenuBar1.Size = new System.Drawing.Size(90, 27);
+            this.contextMenuBar1.Stretch = true;
+            this.contextMenuBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.contextMenuBar1.TabIndex = 8;
+            this.contextMenuBar1.TabStop = false;
+            this.contextMenuBar1.Text = "ctxMenu";
+            // 
+            // buttonItem2
+            // 
+            this.buttonItem2.AutoExpandOnClick = true;
+            this.buttonItem2.Name = "buttonItem2";
+            this.buttonItem2.Shape = new DevComponents.DotNetBar.RoundRectangleShapeDescriptor(2);
+            this.buttonItem2.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem3,
+            this.buttonItem4,
+            this.buttonItem5,
+            this.buttonItem6,
+            this.buttonItem7});
+            this.buttonItem2.Text = "Menu";
+            // 
+            // buttonItem3
+            // 
+            this.buttonItem3.Image = global::QuanLyHocSinhTHPT.Properties.Resources.add;
+            this.buttonItem3.Name = "buttonItem3";
+            this.buttonItem3.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins);
+            this.buttonItem3.Text = "Thêm mới";
+            this.buttonItem3.Click += new System.EventHandler(this.tsbtn_themmoi_Click);
+            // 
+            // buttonItem4
+            // 
+            this.buttonItem4.Image = global::QuanLyHocSinhTHPT.Properties.Resources.delete;
+            this.buttonItem4.Name = "buttonItem4";
+            this.buttonItem4.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.Del);
+            this.buttonItem4.Text = "Xóa dòng được chọn";
+            this.buttonItem4.Click += new System.EventHandler(this.tsbtn_xoa_Click);
+            // 
+            // buttonItem5
+            // 
+            this.buttonItem5.Image = global::QuanLyHocSinhTHPT.Properties.Resources.edit;
+            this.buttonItem5.Name = "buttonItem5";
+            this.buttonItem5.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlE);
+            this.buttonItem5.Text = "Sửa dòng này";
+            this.buttonItem5.Click += new System.EventHandler(this.tsbtn_sua_Click);
+            // 
+            // buttonItem6
+            // 
+            this.buttonItem6.Image = global::QuanLyHocSinhTHPT.Properties.Resources.save;
+            this.buttonItem6.Name = "buttonItem6";
+            this.buttonItem6.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlS);
+            this.buttonItem6.Text = "Lưu danh sách";
+            this.buttonItem6.Click += new System.EventHandler(this.tsbtn_luu_Click);
+            // 
+            // buttonItem7
+            // 
+            this.buttonItem7.Image = global::QuanLyHocSinhTHPT.Properties.Resources.exit;
+            this.buttonItem7.Name = "buttonItem7";
+            this.buttonItem7.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.AltF4);
+            this.buttonItem7.Text = "Đóng cửa sổ này";
+            this.buttonItem7.Click += new System.EventHandler(this.tsbtn_thoat_Click);
+            // 
+            // ds_LoadDataIntoDB
+            // 
+            this.ds_LoadDataIntoDB.DataSetName = "ds_LoadDataIntoDB";
+            this.ds_LoadDataIntoDB.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // nAMHOCBindingSource
+            // 
+            this.nAMHOCBindingSource.DataMember = "NAMHOC";
+            this.nAMHOCBindingSource.DataSource = this.ds_LoadDataIntoDB;
+            // 
             // nAMHOCTableAdapter
             // 
             this.nAMHOCTableAdapter.ClearBeforeFill = true;
+            // 
+            // lOPBindingSource
+            // 
+            this.lOPBindingSource.DataMember = "LOP";
+            this.lOPBindingSource.DataSource = this.ds_LoadDataIntoDB;
             // 
             // lOPTableAdapter
             // 
             this.lOPTableAdapter.ClearBeforeFill = true;
             // 
+            // mONHOCBindingSource
+            // 
+            this.mONHOCBindingSource.DataMember = "MONHOC";
+            this.mONHOCBindingSource.DataSource = this.ds_LoadDataIntoDB;
+            // 
             // mONHOCTableAdapter
             // 
             this.mONHOCTableAdapter.ClearBeforeFill = true;
+            // 
+            // gIAOVIENBindingSource
+            // 
+            this.gIAOVIENBindingSource.DataMember = "GIAOVIEN";
+            this.gIAOVIENBindingSource.DataSource = this.ds_LoadDataIntoDB;
             // 
             // gIAOVIENTableAdapter
             // 
             this.gIAOVIENTableAdapter.ClearBeforeFill = true;
             // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "STT";
+            this.Column1.HeaderText = "STT";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "MANAMHOC";
+            this.Column2.DataSource = this.nAMHOCBindingSource;
+            this.Column2.DisplayMember = "TENNAMHOC";
+            this.Column2.HeaderText = "Năm học";
+            this.Column2.Name = "Column2";
+            this.Column2.ValueMember = "MANAMHOC";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "MALOP";
+            this.Column3.DataSource = this.lOPBindingSource;
+            this.Column3.DisplayMember = "TENLOP";
+            this.Column3.HeaderText = "Lớp";
+            this.Column3.Name = "Column3";
+            this.Column3.ValueMember = "MALOP";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "MAMONHOC";
+            this.Column4.DataSource = this.mONHOCBindingSource;
+            this.Column4.DisplayMember = "TENMONHOC";
+            this.Column4.HeaderText = "Môn học";
+            this.Column4.Name = "Column4";
+            this.Column4.ValueMember = "MAMONHOC";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "MAGIAOVIEN";
+            this.Column5.DataSource = this.gIAOVIENBindingSource;
+            this.Column5.DisplayMember = "TENGIAOVIEN";
+            this.Column5.HeaderText = "Giáo viên";
+            this.Column5.Name = "Column5";
+            this.Column5.ValueMember = "MAGIAOVIEN";
+            // 
             // Form_PhanCong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 556);
+            this.ClientSize = new System.Drawing.Size(922, 536);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.navigationPane);
             this.DoubleBuffered = true;
@@ -760,15 +832,16 @@
             this.groupBox.ResumeLayout(false);
             this.groupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_phancong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nAMHOCBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ds_LoadDataIntoDB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lOPBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mONHOCBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gIAOVIENBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorPhanCong)).EndInit();
             this.bindingNavigatorPhanCong.ResumeLayout(false);
             this.bindingNavigatorPhanCong.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_phancong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contextMenuBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_LoadDataIntoDB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nAMHOCBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lOPBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mONHOCBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gIAOVIENBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -809,7 +882,22 @@
         private System.Windows.Forms.ToolStripButton tsbtn_luu;
         private System.Windows.Forms.ToolStripButton tsbtn_capnhat;
         private System.Windows.Forms.ToolStripButton tsbtn_thoat;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_monhoc;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_lop;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_namhoc;
+        private DevComponents.DotNetBar.ButtonX btn_themmonhoc;
+        private DevComponents.DotNetBar.ButtonX btn_themlop;
+        private DevComponents.DotNetBar.ButtonX btn_themnamhoc;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.Controls.TextBoxX txt_stt;
         private DevComponents.DotNetBar.Controls.DataGridViewX dgv_phancong;
+        private DevComponents.DotNetBar.ContextMenuBar contextMenuBar1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem2;
+        private DevComponents.DotNetBar.ButtonItem buttonItem3;
+        private DevComponents.DotNetBar.ButtonItem buttonItem4;
+        private DevComponents.DotNetBar.ButtonItem buttonItem5;
+        private DevComponents.DotNetBar.ButtonItem buttonItem6;
+        private DevComponents.DotNetBar.ButtonItem buttonItem7;
         private ds_LoadDataIntoDB ds_LoadDataIntoDB;
         private System.Windows.Forms.BindingSource nAMHOCBindingSource;
         private ds_LoadDataIntoDBTableAdapters.NAMHOCTableAdapter nAMHOCTableAdapter;
@@ -819,18 +907,10 @@
         private ds_LoadDataIntoDBTableAdapters.MONHOCTableAdapter mONHOCTableAdapter;
         private System.Windows.Forms.BindingSource gIAOVIENBindingSource;
         private ds_LoadDataIntoDBTableAdapters.GIAOVIENTableAdapter gIAOVIENTableAdapter;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_monhoc;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_lop;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx cbb_namhoc;
-        private DevComponents.DotNetBar.ButtonX btn_themmonhoc;
-        private DevComponents.DotNetBar.ButtonX btn_themlop;
-        private DevComponents.DotNetBar.ButtonX btn_themnamhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column2;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column3;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column4;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column5;
-        private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.Controls.TextBoxX txt_stt;
     }
 }

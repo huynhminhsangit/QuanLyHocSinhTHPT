@@ -456,6 +456,7 @@
             this.btn_inbangdiem.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_inbangdiem.TabIndex = 9;
             this.btn_inbangdiem.Text = "In bảng điểm";
+            this.btn_inbangdiem.Click += new System.EventHandler(this.btn_inbangdiem_Click);
             // 
             // lbl_gvcn
             // 
@@ -580,7 +581,7 @@
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "BẢNG ĐIỂM HỌC KỲ ";
             // 
-            // Form_KQHKTheoLop
+            // Form_KQHK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -591,7 +592,7 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form_KQHKTheoLop";
+            this.Name = "Form_KQHK";
             this.Text = "BẢNG ĐIỂM HỌC KỲ";
             this.Load += new System.EventHandler(this.Form_KQHKTheoLop_Load);
             this.navPaneLeft.ResumeLayout(false);

@@ -25,9 +25,7 @@ namespace BUS
         public void Them(DTO_PhanCong pkphancong)
         {
             dal.them(pkphancong);
-        }
-     
-
+        }  
         public bool KT_KhoaChinh(string pkphancong)
         {
             return dal.KT_KhoaChinh(pkphancong);

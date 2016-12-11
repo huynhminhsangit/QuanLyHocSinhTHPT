@@ -39,7 +39,6 @@ namespace QuanLyHocSinhTHPT
             cbb_khoilop.DisplayMember = "TENKHOILOP";
             cbb_khoilop.ValueMember = "MAKHOI";
 
-
             // Load Data Combobox NamHoc
             BUS_NamHoc bus_NH = new BUS_NamHoc();
             cbb_namhoc.DataSource = bus_NH.LoadDataInto_DGVNamHoc();
@@ -48,7 +47,7 @@ namespace QuanLyHocSinhTHPT
 
             // Load Data Combobox GiaoVienChuNhiem
             BUS_GiaoVien bus_GV = new BUS_GiaoVien();
-            cbb_giaovienchunhiem.DataSource = bus_GV.LoadDataInto_DGVGiaoVien();
+            cbb_giaovienchunhiem.DataSource = bus_GV.LoadDataGiaoVien_ChuaChuNhiem();
             cbb_giaovienchunhiem.DisplayMember = "TENGIAOVIEN";
             cbb_giaovienchunhiem.ValueMember = "MAGIAOVIEN";
         }
@@ -126,17 +125,17 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_lop.CurrentRow != null)
-                dgv_lop.CurrentCell = dgv_lop.Rows[dgv_lop.Rows.Count - 1].Cells[dgv_lop.CurrentCell.ColumnIndex];
+                if (dgv_lop.CurrentRow != null)
+                    dgv_lop.CurrentCell = dgv_lop.Rows[dgv_lop.Rows.Count - 1].Cells[dgv_lop.CurrentCell.ColumnIndex];
 
-            DataTable dt = (DataTable)dgv_lop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
-            {
-                MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
-                return;
-            }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+                DataTable dt = (DataTable)dgv_lop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)
@@ -231,28 +230,59 @@ namespace QuanLyHocSinhTHPT
         {
             if (bus.KT_KhoaChinh(txt_malop.Text) == false)
             {
-                MessageBox.Show("trùng khoá chính");
+                MessageBox.Show("Trùng khoá chính");
                 return;
             }
             else
             {
                 try
                 {
-                    pLopHoc.MaLop = txt_malop.Text;
-                    pLopHoc.TenLop = txt_tenlop.Text;
-                    pLopHoc.Khoi = cbb_khoilop.SelectedValue.ToString();
-                    pLopHoc.NamHoc = cbb_namhoc.SelectedValue.ToString();
-                    pLopHoc.SiSoLop = int.Parse(numeric_siso.Value.ToString());
-                    pLopHoc.GiaoVienCN = cbb_giaovienchunhiem.SelectedValue.ToString();
-                    // Thêm dữ liệu
-                    bus.Them(pLopHoc);
-                    // Msg
-                    MessageBox.Show("Thêm dữ liệu thành công, tải lại để kiểm tra!");
+                    if (string.IsNullOrEmpty(txt_malop.Text))
+                    {
+                        MessageBox.Show("Không được để rỗng mã lớp","WARNING");
+                        return;
+                    }
+                    else if (string.IsNullOrEmpty(txt_tenlop.Text))
+                    {
+                        MessageBox.Show("Không được để rỗng tên lớp", "WARNING");
+                        return;
+                    }
+                    else
+                    {
+                        pLopHoc.MaLop = txt_malop.Text;
+                        pLopHoc.TenLop = txt_tenlop.Text;
+                        pLopHoc.Khoi = cbb_khoilop.SelectedValue.ToString();
+                        pLopHoc.NamHoc = cbb_namhoc.SelectedValue.ToString();
+                        pLopHoc.SiSoLop = int.Parse(numeric_siso.Value.ToString());
+                        pLopHoc.GiaoVienCN = cbb_giaovienchunhiem.SelectedValue.ToString();
+                        // Thêm dữ liệu
+                        bus.Them(pLopHoc);
+                        // Msg
+                        MessageBox.Show("Thêm dữ liệu thành công, tải lại để kiểm tra!");
+                    }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Thêm dữ liệu thất bại, hãy kiểm tra lại!");
 
+                }
+            }
+        }
+        #endregion
+        #region Ràng buộc không cho nhập sĩ số không phù hợp với quy định
+        private void dgv_lop_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            int newDouble;
+            if (e.ColumnIndex == dgv_lop.Columns[4].Index)
+            {
+                dgv_lop.Rows[e.RowIndex].ErrorText = "";
+
+                if (dgv_lop.Rows[e.RowIndex].IsNewRow) { return; }
+                if (!int.TryParse(e.FormattedValue.ToString(),
+                    out newDouble) || newDouble < 35 || newDouble > 40)
+                {
+                    e.Cancel = true;
+                    dgv_lop.Rows[e.RowIndex].ErrorText = "Sĩ số chỉ từ 35 -> 40!";
                 }
             }
         }

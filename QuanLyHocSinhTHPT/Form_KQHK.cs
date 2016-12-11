@@ -151,8 +151,41 @@ namespace QuanLyHocSinhTHPT
         private void btn_hienthidanhsach_Click(object sender, EventArgs e)
         {
             dgv_diemso.DataSource = bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
+            BindingSource bs = new BindingSource();
+            bs.DataSource = bus.LayBangDiem_Lop_HocKy(cbb_lop.SelectedValue.ToString(), cbb_hocky.SelectedValue.ToString());
             ThemDuLieuVaoBangKQHK();
         }
         #endregion
+        #region Export To Excel
+        private void btn_inbangdiem_Click(object sender, EventArgs e)
+        {
+            // tạo ứng dụng Excel
+            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
+            // Tạo WorkBook mới 
+            Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
+            // tạo Sheet nới 
+            Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
+            app.Visible = true;
+            //Khai báo Sheet đầu tiên để làm việc
+            worksheet = workbook.Sheets["Sheet1"];
+            worksheet = workbook.ActiveSheet;
+            // Thay đổi tên Sheet
+            worksheet.Name = "Exported from gridview";
+            // Lưu trữ dữ liệu cho dòng header
+            for (int i = 1; i < dgv_diemso.Columns.Count + 1; i++)
+                worksheet.Cells[1, i] = dgv_diemso.Columns[i - 1].HeaderText;
+
+            // Lưu trữ dữ liệu cho các dòng, cột 
+            for (int i = 0; i < dgv_diemso.Rows.Count - 1; i++)
+                for (int j = 0; j < dgv_diemso.Columns.Count; j++)
+                    worksheet.Cells[i + 2, j + 1] = dgv_diemso.Rows[i].Cells[j].Value.ToString();
+            // Lưu file 
+            workbook.SaveAs("D:\\output.xlsx", Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
+
+            // Thoát khỏi ứng dụng Excel 
+            app.Quit();
+        }
+        #endregion      
     }
 }
+       

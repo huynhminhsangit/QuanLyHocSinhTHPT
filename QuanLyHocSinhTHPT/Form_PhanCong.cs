@@ -255,6 +255,7 @@ namespace QuanLyHocSinhTHPT
             {
                 try
                 {
+                    
                     DTO_PhanCong pPhanCong = new DTO_PhanCong();
                     pPhanCong.Stt = int.Parse(txt_stt.Text);
                     pPhanCong.NamHoc = cbb_namhoc.SelectedValue.ToString();

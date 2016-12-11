@@ -18,6 +18,10 @@ namespace BUS
         {
             return dal.LoadDataIntoDGVGiaoVien();
         }
+        public DataTable LoadDataGiaoVien_ChuaChuNhiem()
+        {
+            return dal.LoadDataGVChuaChuNhiem();
+        }
         public bool Update_All(DataTable dt)
         {
             return dal.Update_All(dt);

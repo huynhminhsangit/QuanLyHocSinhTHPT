@@ -164,44 +164,7 @@ namespace DAL
             }
             return tbBangDiem;
         }      
-        // Lấy điểm trung bình của từng kỳ
-        //public DataTable LayBangDiemTBHocSinhTheoHocKy(string maLop, string maHocSinh)
-        //{
-        //    List<DTO_HocKy> listHK = dalHocKy.LayList_HocKy();
-        //    string sql = "SELECT DISTINCT kq.*, hs.HoTenHocSinh "
-        //                 + "FROM DIEMSO bd, HOCSINH hs, KETQUAHOCKY kq "
-        //                 + "WHERE hs.MaHocSinh = kq.MAHOCSINH AND kq.MAHOCSINH = bd.MAHOCSINH "
-        //                 + "AND kq.MaLop = '" + maLop + "' ";
-        //    DataTable dtBangDiem = GetTable(sql);
-
-        //    // Trường hợp bảng điểm đã nhập đủ
-        //    if (dtBangDiem.Rows.Count == listHK.Count)
-        //        return dtBangDiem;
-        //    // Trường hợp bảng điểm chưa đủ ta phải add thêm học kỳ còn thiếu
-        //    sql = "SELECT hk.MAHOCKY FROM HOCKY hk "
-        //          + "WHERE  hk.MAHOCKY NOT IN "
-        //          + "(SELECT bd.MAHOCKY FROM DIEMSO bd "
-        //          + "WHERE bd.MaLop = '" + maLop + "' AND bd.MaHocSinh = '" + maHocSinh + "')";
-        //    var listMaHKBoSung = new List<string>();
-        //    OpenConnect(); // Mở kết nối
-        //    SqlDataReader dr = ExecuteReader(sql);
-        //    while (dr.Read())
-        //    {
-        //        listMaHKBoSung.Add(dr["MAHOCKY"].ToString());
-        //    }
-        //    CloseConnect(); // Làm xong thì đóng kết nối
-
-        //    foreach (string bangDiemHocKy in listMaHKBoSung)
-        //    {
-        //        DataRow drbDiemBsung = dtBangDiem.NewRow();
-        //        drbDiemBsung["MaHocSinh"] = maHocSinh;
-        //        //drbDiemBsung["MAHOCKY"] = maHocKy;
-        //        drbDiemBsung["MaLop"] = maLop;
-
-        //        dtBangDiem.Rows.Add(drbDiemBsung);
-        //    }
-        //    return dtBangDiem;
-        //}
+        // Lấy điểm trung bình của từng kỳ      
 
         public DataTable LayBangDiemTBHocSinhTheoHocKy(string maLop, string maHocSinh)
         {

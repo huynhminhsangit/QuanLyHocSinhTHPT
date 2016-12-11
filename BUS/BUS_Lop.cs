@@ -34,9 +34,9 @@ namespace BUS
             return dal.Update_All(dt);
         }
         // Hàm Thêm bằng DTO
-        public void Them(DTO_Lop pLop)
+        public bool Them(DTO_Lop pLop)
         {
-            dal.Them(pLop);
+            return dal.Them(pLop);
         }
         // Hàm kiểm tra khóa chính
         public bool KT_KhoaChinh(string pMaLop)

@@ -54,29 +54,33 @@ namespace DAL
             }
         }
         // Hàm thêm bằng DTO
-        public void Them(DTO_Lop pLop)
+        public bool Them(DTO_Lop pLop)
         {
+            try
+            {
+                string s = "select * from LOP";
+                SqlDataAdapter da = new SqlDataAdapter(s, connectionsql);
+                DataSet ds = new DataSet();
+                da.Fill(ds, "LOP");
 
-            string s = "select * from LOP";
-            DataSet ds = new DataSet();
-            SqlDataAdapter da = new SqlDataAdapter(s, connectionsql);
-            da.Fill(ds, "LOP");
 
-            DataColumn[] pk = new DataColumn[1];
-            pk[0] = ds.Tables["LOP"].Columns[0];
-            ds.Tables["LOP"].PrimaryKey = pk;
+                DataRow newrow = ds.Tables["LOP"].NewRow();
+                newrow["MALOP"] = pLop.MaLop;
+                newrow["TENLOP"] = pLop.TenLop;
+                newrow["MAKHOI"] = pLop.Khoi;
+                newrow["MANAMHOC"] = pLop.NamHoc;
+                newrow["SISO"] = pLop.SiSoLop;
+                newrow["MAGIAOVIENCHUNHIEM"] = pLop.GiaoVienCN;
+                ds.Tables["LOP"].Rows.Add(newrow);
 
-            DataRow newrow = ds.Tables["LOP"].NewRow();
-            newrow["MALOP"] = pLop.MaLop;
-            newrow["TENLOP"] = pLop.TenLop;
-            newrow["MAKHOI"] = pLop.Khoi;
-            newrow["MANAMHOC"] = pLop.NamHoc;
-            newrow["SISO"] = pLop.SiSoLop;
-            newrow["MAGIAOVIENCHUNHIEM"] = pLop.GiaoVienCN;
-            ds.Tables["LOP"].Rows.Add(newrow);
-
-            SqlCommandBuilder cb = new SqlCommandBuilder(da);
-            da.Update(ds, "LOP");
+                SqlCommandBuilder cb = new SqlCommandBuilder(da);
+                da.Update(ds, "LOP");
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
 
         }
         // Hàm kiểm tra khóa chính

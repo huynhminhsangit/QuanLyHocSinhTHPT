@@ -19,6 +19,16 @@ namespace DAL
             da_GiaoVien.Fill(ds, "GIAOVIEN");
             return ds.Tables["GIAOVIEN"];
         }
+        // Hàm load data các giáo viên chưa chủ nhiệm
+        public DataTable LoadDataGVChuaChuNhiem()
+        {
+            SqlDataAdapter da_GiaoVien = new SqlDataAdapter("Select gv.* From GIAOVIEN gv LEFT JOIN LOP l ON gv.MAGIAOVIEN = l.MAGIAOVIENCHUNHIEM "
+                                                            + "WHERE gv.MAGIAOVIEN NOT IN "
+                                                            + "(SELECT MAGIAOVIENCHUNHIEM FROM LOP)", connectionsql);
+            DataSet ds = new DataSet();
+            da_GiaoVien.Fill(ds, "GIAOVIENCHUACHUNHIEM");
+            return ds.Tables["GIAOVIENCHUACHUNHIEM"];
+        }
         // Hàm thực hiện Insert, Update, Delete
         public bool Update_All(DataTable dt)
         {

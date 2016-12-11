@@ -41,8 +41,8 @@ namespace DAL
         public void them(DTO_PhanCong pkphancong)
         {
             string s = "select * from PHANCONG";
-            DataSet ds_phancong = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(s, connectionsql);
+            DataSet ds_phancong = new DataSet();          
             da.Fill(ds_phancong, "PHANCONG");
 
             DataColumn[] pk = new DataColumn[1];
