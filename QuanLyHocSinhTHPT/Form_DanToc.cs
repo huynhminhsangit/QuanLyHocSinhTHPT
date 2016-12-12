@@ -72,7 +72,7 @@ namespace QuanLyHocSinhTHPT
                     dgv_dantoc.Rows.Remove(item);
                 
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("Không xóa được. Hãy thử lại!");
             }
@@ -90,17 +90,24 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_dantoc.CurrentRow != null)
-                dgv_dantoc.CurrentCell = dgv_dantoc.Rows[dgv_dantoc.Rows.Count - 1].Cells[dgv_dantoc.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_dantoc.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu lại thất bại!");
+                if (dgv_dantoc.CurrentRow != null)
+                    dgv_dantoc.CurrentCell = dgv_dantoc.Rows[dgv_dantoc.Rows.Count - 1].Cells[dgv_dantoc.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_dantoc.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu lại thất bại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

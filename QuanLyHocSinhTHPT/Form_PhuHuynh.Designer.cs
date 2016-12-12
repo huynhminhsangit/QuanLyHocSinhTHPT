@@ -42,13 +42,8 @@
             this.btn_luu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_thoat = new DevComponents.DotNetBar.ButtonItem();
             this.dgv_phuhuynh = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.gIOITINHBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ds_LoadDataIntoDB = new QuanLyHocSinhTHPT.ds_LoadDataIntoDB();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigatorPhuHuynh = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -66,6 +61,11 @@
             this.tsbtn_capnhat = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_thoat = new System.Windows.Forms.ToolStripButton();
             this.gIOITINHTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.GIOITINHTableAdapter();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_phuhuynh)).BeginInit();
@@ -87,7 +87,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(877, 329);
+            this.groupBox.Size = new System.Drawing.Size(891, 336);
             this.groupBox.TabIndex = 7;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Thông tin phụ huynh học sinh";
@@ -201,38 +201,9 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_phuhuynh.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_phuhuynh.Size = new System.Drawing.Size(871, 271);
+            this.dgv_phuhuynh.Size = new System.Drawing.Size(885, 278);
             this.dgv_phuhuynh.TabIndex = 5;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MAPHUHUYNH";
-            this.Column1.FillWeight = 46.31979F;
-            this.Column1.HeaderText = "Mã Phụ Huynh";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "HOTENPHUHUYNH";
-            this.Column2.FillWeight = 46.31979F;
-            this.Column2.HeaderText = "Họ Tên";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "MAGIOITINH";
-            this.Column3.DataSource = this.gIOITINHBindingSource;
-            this.Column3.DisplayMember = "TENGIOITINH";
-            this.Column3.FillWeight = 46.31979F;
-            this.Column3.HeaderText = "Giới Tính";
-            this.Column3.Name = "Column3";
-            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column3.ValueMember = "MAGIOITINH";
+            this.dgv_phuhuynh.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgv_phuhuynh_CellValidating);
             // 
             // gIOITINHBindingSource
             // 
@@ -243,22 +214,6 @@
             // 
             this.ds_LoadDataIntoDB.DataSetName = "ds_LoadDataIntoDB";
             this.ds_LoadDataIntoDB.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "SDT";
-            this.Column4.FillWeight = 46.31979F;
-            this.Column4.HeaderText = "SĐT";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "DIACHI";
-            this.Column5.FillWeight = 46.31979F;
-            this.Column5.HeaderText = "Địa Chỉ";
-            this.Column5.Name = "Column5";
             // 
             // bindingNavigatorPhuHuynh
             // 
@@ -289,7 +244,7 @@
             this.bindingNavigatorPhuHuynh.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorPhuHuynh.Name = "bindingNavigatorPhuHuynh";
             this.bindingNavigatorPhuHuynh.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorPhuHuynh.Size = new System.Drawing.Size(869, 25);
+            this.bindingNavigatorPhuHuynh.Size = new System.Drawing.Size(883, 25);
             this.bindingNavigatorPhuHuynh.TabIndex = 6;
             this.bindingNavigatorPhuHuynh.Text = "bindingNavigatorPhuHuynh";
             // 
@@ -428,11 +383,58 @@
             // 
             this.gIOITINHTableAdapter.ClearBeforeFill = true;
             // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MAPHUHUYNH";
+            this.Column1.FillWeight = 46.31979F;
+            this.Column1.HeaderText = "Mã Phụ Huynh";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "HOTENPHUHUYNH";
+            this.Column2.FillWeight = 46.31979F;
+            this.Column2.HeaderText = "Họ Tên";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "MAGIOITINH";
+            this.Column3.DataSource = this.gIOITINHBindingSource;
+            this.Column3.DisplayMember = "TENGIOITINH";
+            this.Column3.FillWeight = 46.31979F;
+            this.Column3.HeaderText = "Giới Tính";
+            this.Column3.Name = "Column3";
+            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Column3.ValueMember = "MAGIOITINH";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "SDT";
+            this.Column4.FillWeight = 46.31979F;
+            this.Column4.HeaderText = "SĐT";
+            this.Column4.MaxInputLength = 12;
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "DIACHI";
+            this.Column5.FillWeight = 46.31979F;
+            this.Column5.HeaderText = "Địa Chỉ";
+            this.Column5.Name = "Column5";
+            // 
             // Form_PhuHuynh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 369);
+            this.ClientSize = new System.Drawing.Size(973, 383);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

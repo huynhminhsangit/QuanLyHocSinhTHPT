@@ -79,7 +79,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(816, 246);
+            this.groupBox.Size = new System.Drawing.Size(844, 246);
             this.groupBox.TabIndex = 5;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Xếp loại học lực";
@@ -192,7 +192,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_hocluc.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_hocluc.Size = new System.Drawing.Size(808, 194);
+            this.dgv_hocluc.Size = new System.Drawing.Size(836, 194);
             this.dgv_hocluc.TabIndex = 5;
             // 
             // Column1
@@ -261,7 +261,7 @@
             this.bindingNavigatorHocLuc.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorHocLuc.Name = "bindingNavigatorHocLuc";
             this.bindingNavigatorHocLuc.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorHocLuc.Size = new System.Drawing.Size(808, 25);
+            this.bindingNavigatorHocLuc.Size = new System.Drawing.Size(836, 25);
             this.bindingNavigatorHocLuc.TabIndex = 6;
             this.bindingNavigatorHocLuc.Text = "bindingNavigatorHocLuc";
             // 
@@ -400,7 +400,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 290);
+            this.ClientSize = new System.Drawing.Size(870, 304);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

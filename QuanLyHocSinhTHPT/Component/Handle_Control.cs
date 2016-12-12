@@ -13,7 +13,7 @@ namespace QuanLyHocSinhTHPT.Component
     public static class ShowForm
     {  
         #region Tên Form
-        public static Form_Main frmMain = null;
+        public static Form_Main                         frmMain                 = null;
         public static Form_QuyDinh                      frmQuyDinh              = null;
         public static Form_ThongTinChuongTrinh          frmThongTinChTrinh      = null;
         public static Form_TTTruongHoc                  frmThongTinTruongHoc    = null;
@@ -36,8 +36,8 @@ namespace QuanLyHocSinhTHPT.Component
         public static Form_KetQuaHocTap                 frmKetQuaHocTap         = null;
         public static Form_HanhKiem                     frmHanhKiem             = null;
         public static Form_HocLuc                       frmHocLuc               = null;
-        public static Form_KQHK                  frmKQHKTheoLop          = null;
-        public static Form_KQCN                  frmKQCNTheoLop          = null;
+        public static Form_KQHK                         frmKQHKTheoLop          = null;
+        public static Form_KQCN                         frmKQCNTheoLop          = null;
         public static Form_DanhSachGiaoVien             frmDSGiaoVien           = null;
         public static Form_DanhSachHocSinh              frmDSHocSinh            = null;
         public static Form_DanhSachLopHoc               frmDSLopHoc             = null;
@@ -46,6 +46,19 @@ namespace QuanLyHocSinhTHPT.Component
  
         #endregion
         #region Hiện Form
+        #region Menu Start
+        public static void ShowFormDoiMatKhau()
+        {
+            if (frmDoiMatKhau == null || frmDoiMatKhau.IsDisposed)
+            {
+                frmDoiMatKhau = new Form_DoiMatKhau();
+                frmDoiMatKhau.MdiParent = Form_Main.ActiveForm;
+                frmDoiMatKhau.Show();
+            }
+            else
+                frmDoiMatKhau.Activate();
+        }
+        #endregion
         #region Menu Quản Lý
         public static void ShowFormNamHoc()
         {

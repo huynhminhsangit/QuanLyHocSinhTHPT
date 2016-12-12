@@ -78,7 +78,7 @@
             this.navPaneLeft.Name = "navPaneLeft";
             this.navPaneLeft.NavigationBarHeight = 68;
             this.navPaneLeft.Padding = new System.Windows.Forms.Padding(1);
-            this.navPaneLeft.Size = new System.Drawing.Size(201, 423);
+            this.navPaneLeft.Size = new System.Drawing.Size(201, 437);
             this.navPaneLeft.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.navPaneLeft.TabIndex = 5;
             // 
@@ -116,7 +116,7 @@
             this.navPanelNhapDuLieu.Margin = new System.Windows.Forms.Padding(4);
             this.navPanelNhapDuLieu.Name = "navPanelNhapDuLieu";
             this.navPanelNhapDuLieu.ParentItem = this.buttonItem1;
-            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(199, 323);
+            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(199, 337);
             this.navPanelNhapDuLieu.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navPanelNhapDuLieu.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navPanelNhapDuLieu.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -216,7 +216,7 @@
             this.panel1.Location = new System.Drawing.Point(209, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(782, 111);
+            this.panel1.Size = new System.Drawing.Size(796, 111);
             this.panel1.TabIndex = 11;
             // 
             // btn_inbangdiem
@@ -229,6 +229,7 @@
             this.btn_inbangdiem.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_inbangdiem.TabIndex = 9;
             this.btn_inbangdiem.Text = "In bảng điểm";
+            this.btn_inbangdiem.Click += new System.EventHandler(this.btn_inbangdiem_Click);
             // 
             // lbl_gvcn
             // 
@@ -368,7 +369,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_diemso.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_diemso.Size = new System.Drawing.Size(782, 281);
+            this.dgv_diemso.Size = new System.Drawing.Size(796, 288);
             this.dgv_diemso.TabIndex = 12;
             // 
             // Column1
@@ -416,7 +417,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 423);
+            this.ClientSize = new System.Drawing.Size(1046, 437);
             this.Controls.Add(this.dgv_diemso);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.navPaneLeft);

@@ -31,42 +31,47 @@ namespace QuanLyHocSinhTHPT
 
         private void btn_dangnhap_Click(object sender, EventArgs e)
         {
-            string tendangnhap = txt_tendangnhap.Text;
-            string matkhau = txt_matkhau.Text;
-            int count = bus.ReadUserName_PassWord(tendangnhap,matkhau).Rows.Count;
-
-            if (string.IsNullOrEmpty(tendangnhap))
-                MessageBox.Show("Bạn chưa nhập tên đăng nhập!");
-            else if (string.IsNullOrEmpty(matkhau))
-                MessageBox.Show("Bạn chưa nhập mật khẩu!");
-
-
-            if (count != 0)
+            try
             {
+                string tendangnhap = txt_tendangnhap.Text;
+                string matkhau = txt_matkhau.Text;
+                int count = bus.ReadUserName_PassWord(tendangnhap,matkhau).Rows.Count;
 
-                Form_Main.userName = tendangnhap;
-                this.Close();
+                if (string.IsNullOrEmpty(tendangnhap))
+                {
+                    MessageBox.Show("Bạn chưa nhập tên đăng nhập!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    return;
+                }
+                else if (string.IsNullOrEmpty(matkhau))
+                {
+                    MessageBox.Show("Bạn chưa nhập mật khẩu!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    return;
+                }
+                // Đăng nhập thành công
+                if (count != 0)
+                {
+                    Form_Main.userName = tendangnhap;
+                    this.Close();
+                    // Đăng nhập xong thì xóa text trong textbox
+                    txt_tendangnhap.Clear();
+                    txt_matkhau.Clear();           
+                }
+                else
+                {
+                    MessageBox.Show("Login Failse!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    return;
+                }
             }
-
-            //if (userName == "admin" && passWord == "admin")
-            //{
-            //    Form_Main.userName = userName;
-            //    this.Close();
-            //}
-            //else if(userName =="giaovu" && passWord == "giaovu")
-            //{
-            //    Form_Main.userName = userName;
-            //    this.Close();
-            //}
-            //else
-            //    MessageBox.Show("Đăng nhập thất bại!");
+            catch
+            {
+                MessageBox.Show("Login Failse!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                return;
+            }          
         }
 
         private void btn_huybo_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-
     }
 }

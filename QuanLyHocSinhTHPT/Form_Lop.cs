@@ -107,9 +107,10 @@ namespace QuanLyHocSinhTHPT
                 foreach (DataGridViewRow item in dgv_lop.SelectedRows)
                     dgv_lop.Rows.Remove(item);
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("Xóa đối tượng thất bại. Hãy thử lại!");
+                return;
             }
         }
 
@@ -125,6 +126,8 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
+            try
+            {
                 if (dgv_lop.CurrentRow != null)
                     dgv_lop.CurrentCell = dgv_lop.Rows[dgv_lop.Rows.Count - 1].Cells[dgv_lop.CurrentCell.ColumnIndex];
 
@@ -136,6 +139,8 @@ namespace QuanLyHocSinhTHPT
                 }
                 else
                     MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch { return; }
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)
@@ -272,14 +277,14 @@ namespace QuanLyHocSinhTHPT
         #region Ràng buộc không cho nhập sĩ số không phù hợp với quy định
         private void dgv_lop_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
-            int newDouble;
+            int newInt;
             if (e.ColumnIndex == dgv_lop.Columns[4].Index)
             {
                 dgv_lop.Rows[e.RowIndex].ErrorText = "";
 
                 if (dgv_lop.Rows[e.RowIndex].IsNewRow) { return; }
                 if (!int.TryParse(e.FormattedValue.ToString(),
-                    out newDouble) || newDouble < 35 || newDouble > 40)
+                    out newInt) || newInt < 35 || newInt > 40)
                 {
                     e.Cancel = true;
                     dgv_lop.Rows[e.RowIndex].ErrorText = "Sĩ số chỉ từ 35 -> 40!";

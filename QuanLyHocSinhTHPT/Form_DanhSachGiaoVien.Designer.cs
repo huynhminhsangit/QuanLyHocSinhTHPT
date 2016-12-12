@@ -109,7 +109,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_giaovien.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_giaovien.Size = new System.Drawing.Size(748, 281);
+            this.dgv_giaovien.Size = new System.Drawing.Size(762, 288);
             this.dgv_giaovien.TabIndex = 28;
             // 
             // Column1
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(772, 345);
+            this.ClientSize = new System.Drawing.Size(800, 359);
             this.Controls.Add(this.dgv_giaovien);
             this.Controls.Add(this.cbb_monday);
             this.Controls.Add(this.labelX1);

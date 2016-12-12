@@ -77,7 +77,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(569, 284);
+            this.groupBox.Size = new System.Drawing.Size(597, 284);
             this.groupBox.TabIndex = 2;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Các học kỳ";
@@ -188,7 +188,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_hocky.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_hocky.Size = new System.Drawing.Size(561, 222);
+            this.dgv_hocky.Size = new System.Drawing.Size(589, 222);
             this.dgv_hocky.TabIndex = 5;
             // 
             // Column1
@@ -244,7 +244,7 @@
             this.bindingNavigatorHocKy.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorHocKy.Name = "bindingNavigatorHocKy";
             this.bindingNavigatorHocKy.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorHocKy.Size = new System.Drawing.Size(561, 25);
+            this.bindingNavigatorHocKy.Size = new System.Drawing.Size(589, 25);
             this.bindingNavigatorHocKy.TabIndex = 6;
             this.bindingNavigatorHocKy.Text = "bindingNavigatorNamHoc";
             // 
@@ -383,7 +383,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(595, 325);
+            this.ClientSize = new System.Drawing.Size(623, 339);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

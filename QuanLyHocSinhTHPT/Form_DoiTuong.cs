@@ -21,6 +21,7 @@ namespace QuanLyHocSinhTHPT
         BindingSource bs = new BindingSource();
         int donghientai;
         #endregion
+        #region Load
         public Form_DoiTuong()
         {
             InitializeComponent();
@@ -42,6 +43,7 @@ namespace QuanLyHocSinhTHPT
             else
                 donghientai = 0;
         }
+        #endregion
         #region Xử lý btn trên Toolstrip
         private void tsbtn_themmoi_Click(object sender, EventArgs e)
         {
@@ -88,17 +90,24 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_doituong.CurrentRow != null)
-                dgv_doituong.CurrentCell = dgv_doituong.Rows[dgv_doituong.Rows.Count - 1].Cells[dgv_doituong.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_doituong.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu lại thất bại!");
+                if (dgv_doituong.CurrentRow != null)
+                    dgv_doituong.CurrentCell = dgv_doituong.Rows[dgv_doituong.Rows.Count - 1].Cells[dgv_doituong.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_doituong.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu lại thất bại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

@@ -42,14 +42,8 @@
             this.btn_luu = new DevComponents.DotNetBar.ButtonItem();
             this.btn_thoat = new DevComponents.DotNetBar.ButtonItem();
             this.dgv_giaovien = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.gIOITINHBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ds_LoadDataIntoDB = new QuanLyHocSinhTHPT.ds_LoadDataIntoDB();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.mONHOCBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigatorGiaoVien = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -69,6 +63,12 @@
             this.tsbtn_thoat = new System.Windows.Forms.ToolStripButton();
             this.gIOITINHTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.GIOITINHTableAdapter();
             this.mONHOCTableAdapter = new QuanLyHocSinhTHPT.ds_LoadDataIntoDBTableAdapters.MONHOCTableAdapter();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ctx_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_giaovien)).BeginInit();
@@ -204,30 +204,7 @@
             this.dgv_giaovien.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_giaovien.Size = new System.Drawing.Size(875, 390);
             this.dgv_giaovien.TabIndex = 5;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "MAGIAOVIEN";
-            this.Column1.HeaderText = "Mã giáo viên";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "TENGIAOVIEN";
-            this.Column2.HeaderText = "Họ tên";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "MAGIOITINH";
-            this.Column3.DataSource = this.gIOITINHBindingSource;
-            this.Column3.DisplayMember = "TENGIOITINH";
-            this.Column3.HeaderText = "Giới tính";
-            this.Column3.Name = "Column3";
-            this.Column3.ValueMember = "MAGIOITINH";
+            this.dgv_giaovien.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgv_giaovien_CellValidating);
             // 
             // gIOITINHBindingSource
             // 
@@ -238,32 +215,6 @@
             // 
             this.ds_LoadDataIntoDB.DataSetName = "ds_LoadDataIntoDB";
             this.ds_LoadDataIntoDB.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "DIACHI";
-            this.Column4.HeaderText = "Địa chỉ";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "DIENTHOAI";
-            this.Column5.HeaderText = "Điện thoại";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "MAMONHOC";
-            this.Column6.DataSource = this.mONHOCBindingSource;
-            this.Column6.DisplayMember = "TENMONHOC";
-            this.Column6.HeaderText = "Giảng dạy";
-            this.Column6.Name = "Column6";
-            this.Column6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column6.ValueMember = "MAMONHOC";
             // 
             // mONHOCBindingSource
             // 
@@ -441,6 +392,57 @@
             // mONHOCTableAdapter
             // 
             this.mONHOCTableAdapter.ClearBeforeFill = true;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "MAGIAOVIEN";
+            this.Column1.HeaderText = "Mã giáo viên";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "TENGIAOVIEN";
+            this.Column2.HeaderText = "Họ tên";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "MAGIOITINH";
+            this.Column3.DataSource = this.gIOITINHBindingSource;
+            this.Column3.DisplayMember = "TENGIOITINH";
+            this.Column3.HeaderText = "Giới tính";
+            this.Column3.Name = "Column3";
+            this.Column3.ValueMember = "MAGIOITINH";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "DIACHI";
+            this.Column4.HeaderText = "Địa chỉ";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "DIENTHOAI";
+            this.Column5.HeaderText = "Điện thoại";
+            this.Column5.MaxInputLength = 12;
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.DataPropertyName = "MAMONHOC";
+            this.Column6.DataSource = this.mONHOCBindingSource;
+            this.Column6.DisplayMember = "TENMONHOC";
+            this.Column6.HeaderText = "Giảng dạy";
+            this.Column6.Name = "Column6";
+            this.Column6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Column6.ValueMember = "MAMONHOC";
             // 
             // Form_GiaoVien
             // 

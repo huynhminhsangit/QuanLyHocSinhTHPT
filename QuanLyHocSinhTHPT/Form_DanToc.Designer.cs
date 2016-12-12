@@ -76,7 +76,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(614, 258);
+            this.groupBox.Size = new System.Drawing.Size(670, 258);
             this.groupBox.TabIndex = 8;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách các dân tộc";
@@ -185,7 +185,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_dantoc.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_dantoc.Size = new System.Drawing.Size(608, 203);
+            this.dgv_dantoc.Size = new System.Drawing.Size(659, 203);
             this.dgv_dantoc.TabIndex = 5;
             // 
             // Column1
@@ -231,7 +231,7 @@
             this.bindingNavigatorDanToc.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorDanToc.Name = "bindingNavigatorDanToc";
             this.bindingNavigatorDanToc.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorDanToc.Size = new System.Drawing.Size(606, 25);
+            this.bindingNavigatorDanToc.Size = new System.Drawing.Size(662, 25);
             this.bindingNavigatorDanToc.TabIndex = 6;
             this.bindingNavigatorDanToc.Text = "bindingNavigatorPhuHuynh";
             // 
@@ -370,7 +370,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 344);
+            this.ClientSize = new System.Drawing.Size(696, 358);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

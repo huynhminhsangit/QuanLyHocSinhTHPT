@@ -21,12 +21,11 @@ namespace QuanLyHocSinhTHPT
         BindingSource bs = new BindingSource();
         int donghientai;
         #endregion
+        #region Load
         public Form_GiaoVien()
         {
             InitializeComponent();
-        }
-        #region Load
-
+        }      
         private void Form_GiaoVien_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'ds_LoadDataIntoDB.MONHOC' table. You can move, or remove it, as needed.
@@ -66,7 +65,6 @@ namespace QuanLyHocSinhTHPT
                 dgv_giaovien.Rows[i].ReadOnly = true;
             }
         }
-
         private void tsbtn_xoa_Click(object sender, EventArgs e)
         {
             try
@@ -83,7 +81,6 @@ namespace QuanLyHocSinhTHPT
                 MessageBox.Show("Dữ liệu này nằm trong database. Hãy thử lại!");
             }
         }
-
         private void tsbtn_sua_Click(object sender, EventArgs e)
         {
             dgv_giaovien.AllowUserToAddRows = false;
@@ -93,25 +90,37 @@ namespace QuanLyHocSinhTHPT
             for (int i = 0; i < dgv_giaovien.Rows.Count - 1; ++i)
                 dgv_giaovien.Rows[i].ReadOnly = false;
         }
-
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_giaovien.CurrentRow != null)
-                dgv_giaovien.CurrentCell = dgv_giaovien.Rows[dgv_giaovien.Rows.Count - 1].Cells[dgv_giaovien.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_giaovien.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu thất bại. Hãy thử lại!");
+                if (dgv_giaovien.CurrentRow != null)
+                    dgv_giaovien.CurrentCell = dgv_giaovien.Rows[dgv_giaovien.Rows.Count - 1].Cells[dgv_giaovien.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_giaovien.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu thất bại. Hãy thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
-
         private void tsbtn_capnhat_Click(object sender, EventArgs e)
         {
-            dgv_giaovien.DataSource = bus.LoadDataInto_DGVGiaoVien();
+            try
+            {
+                dgv_giaovien.DataSource = bus.LoadDataInto_DGVGiaoVien();
+            }
+            catch
+            {
+                return;
+            }
         }
 
         private void tsbtn_thoat_Click(object sender, EventArgs e)
@@ -163,6 +172,29 @@ namespace QuanLyHocSinhTHPT
         private void btn_luuds_Click(object sender, EventArgs e)
         {
 
+        }
+        #endregion
+        #region Kiểm tra SĐT hợp lệ hay không?
+        private void dgv_giaovien_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            try
+            {
+                if (e.ColumnIndex == dgv_giaovien.Columns[4].Index)
+                {
+                    dgv_giaovien.Rows[e.RowIndex].ErrorText = "";
+
+                    if (dgv_giaovien.Rows[e.RowIndex].IsNewRow) { return; }
+                    if (e.FormattedValue.ToString().Length < 10 || e.FormattedValue.ToString().Length > 11)
+                    {
+                        e.Cancel = true;
+                        dgv_giaovien.Rows[e.RowIndex].ErrorText = "SĐT chỉ từ 10 - 11 số";
+                    }
+                }
+            }
+            catch
+            {
+                return;
+            }
         }
         #endregion
     }

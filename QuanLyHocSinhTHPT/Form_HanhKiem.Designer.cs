@@ -76,7 +76,7 @@
             this.groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox.Name = "groupBox";
             this.groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox.Size = new System.Drawing.Size(621, 293);
+            this.groupBox.Size = new System.Drawing.Size(649, 293);
             this.groupBox.TabIndex = 4;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Xếp loại hạnh kiểm";
@@ -151,6 +151,8 @@
             // dgv_hanhkiem
             // 
             this.dgv_hanhkiem.AllowUserToAddRows = false;
+            this.dgv_hanhkiem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv_hanhkiem.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -184,7 +186,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_hanhkiem.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_hanhkiem.Size = new System.Drawing.Size(613, 237);
+            this.dgv_hanhkiem.Size = new System.Drawing.Size(641, 237);
             this.dgv_hanhkiem.TabIndex = 5;
             // 
             // Column1
@@ -232,7 +234,7 @@
             this.bindingNavigatorHanhKiem.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorHanhKiem.Name = "bindingNavigatorHanhKiem";
             this.bindingNavigatorHanhKiem.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorHanhKiem.Size = new System.Drawing.Size(613, 25);
+            this.bindingNavigatorHanhKiem.Size = new System.Drawing.Size(641, 25);
             this.bindingNavigatorHanhKiem.TabIndex = 6;
             this.bindingNavigatorHanhKiem.Text = "bindingNavigatorHanhKiem";
             // 
@@ -371,7 +373,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 321);
+            this.ClientSize = new System.Drawing.Size(675, 335);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

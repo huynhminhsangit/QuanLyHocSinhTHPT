@@ -34,4 +34,3 @@ C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\R
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\bin\Release\DTO.pdb
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.dll
 C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.pdb
-C:\Users\huynh\Desktop\1.0.7\DeTai_QuanLyHocSinhTHPT\QuanLyHocSinhTHPT\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache

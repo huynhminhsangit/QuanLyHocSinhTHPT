@@ -89,17 +89,21 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_khoilop.CurrentRow != null)
-                dgv_khoilop.CurrentCell = dgv_khoilop.Rows[dgv_khoilop.Rows.Count - 1].Cells[dgv_khoilop.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_khoilop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Trùng MÃ KHỐI, vui lòng thử lại!");
-                return;
+                if (dgv_khoilop.CurrentRow != null)
+                    dgv_khoilop.CurrentCell = dgv_khoilop.Rows[dgv_khoilop.Rows.Count - 1].Cells[dgv_khoilop.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_khoilop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Trùng MÃ KHỐI, vui lòng thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            catch { return; }
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

@@ -91,18 +91,25 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_hanhkiem.CurrentRow != null)
-                dgv_hanhkiem.CurrentCell = dgv_hanhkiem.Rows[dgv_hanhkiem.Rows.Count - 1].Cells[dgv_hanhkiem.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_hanhkiem.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
+                if (dgv_hanhkiem.CurrentRow != null)
+                    dgv_hanhkiem.CurrentCell = dgv_hanhkiem.Rows[dgv_hanhkiem.Rows.Count - 1].Cells[dgv_hanhkiem.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_hanhkiem.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace QuanLyHocSinhTHPT
         #region Toàn cục
         public static string userName = string.Empty;
         Form_DangNhap frmDangNhap = null;
+        Form_DoiMatKhau frmDoiMatKhau = null;
         #endregion
         #region Load DateTime Now
         private void timer_Tick(object sender, EventArgs e)
@@ -190,22 +191,29 @@ namespace QuanLyHocSinhTHPT
         private void btn_dangxuat_Click(object sender, EventArgs e)
         {
             this.lbl_usernamelogin.Text = "Không có";
+            userName = null;
             GuiDefault();
+        }
+        private void btn_doimatkhau_Click(object sender, EventArgs e)
+        {
+            if (frmDoiMatKhau == null || frmDoiMatKhau.IsDisposed)
+                frmDoiMatKhau = new Form_DoiMatKhau();
+            frmDoiMatKhau.ShowDialog();    
         }
 
         private void btn_qlnguoidung_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btn_saoluucsdl_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Tính năng đang hoàn thiện. Vui lòng quay lại sau.");
         }
 
         private void btn_phuchoicsdl_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Tính năng đang hoàn thiện. Vui lòng quay lại sau.");
         }
 
         private void btn_dongchuongtrinh_Click(object sender, EventArgs e)

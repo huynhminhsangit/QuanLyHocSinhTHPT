@@ -80,6 +80,7 @@ namespace QuanLyHocSinhTHPT
             LoadDataIntoCombobox();
         }
         #endregion
+        #region Lọc dữ liệu
         private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)
         {
             LocDanhSachLopTheoNamHoc();
@@ -94,6 +95,6 @@ namespace QuanLyHocSinhTHPT
         {
             dgv_danhsachhocsinh.DataSource = busPhanLop.LayDSHocSinhTheoMaLopMaKhoiMaNH(cbb_lop.SelectedValue.ToString());
         }
-
+        #endregion
     }
 }

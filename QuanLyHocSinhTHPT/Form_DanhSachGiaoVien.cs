@@ -23,8 +23,6 @@ namespace QuanLyHocSinhTHPT
             InitializeComponent();
         }
 
-    
-
        private void Form_DanhSachGiaoVien_Load(object sender, EventArgs e)
        {
           
@@ -38,10 +36,6 @@ namespace QuanLyHocSinhTHPT
        private void cbb_monday_SelectedIndexChanged(object sender, EventArgs e)
        {
            dgv_giaovien.DataSource = bus_monhoc.timkiem_monday(cbb_monday.SelectedValue.ToString());
-       }
-
-     
-
-     
+       }   
     }
 }

@@ -16,9 +16,12 @@ namespace QuanLyHocSinhTHPT
 {
     public partial class Form_NamHoc : Office2007Form
     {
+        #region Toàn cục
         BUS_NamHoc bus = new BUS_NamHoc();
         BindingSource bs = new BindingSource();
         int donghientai;
+        #endregion
+        #region Load
         public Form_NamHoc()
         {
             InitializeComponent();
@@ -39,6 +42,7 @@ namespace QuanLyHocSinhTHPT
             else
                 donghientai = 0;
         }
+        #endregion
         #region Xử lý btn trên Toolstrip
         private void tsbtn_themmoi_Click(object sender, EventArgs e)
         {
@@ -68,9 +72,10 @@ namespace QuanLyHocSinhTHPT
                 foreach (DataGridViewRow item in dgv_namhoc.SelectedRows)
                     dgv_namhoc.Rows.Remove(item);
             }
-            catch(Exception ex)
+            catch
             {
                 MessageBox.Show("Dữ liệu này nằm trong database. Hãy thử lại!");
+                return;
             }
         }
 
@@ -86,19 +91,23 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            // Xử lý chuyển con trỏ chuột xuống dòng dưới cùng để hoàn thành dòng vừa edit
-            if (dgv_namhoc.CurrentRow != null)
-                dgv_namhoc.CurrentCell = dgv_namhoc.Rows[dgv_namhoc.Rows.Count - 1].Cells[dgv_namhoc.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_namhoc.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Trùng MÃ NĂM HỌC, vui lòng thử lại!");
-                return;
+                // Xử lý chuyển con trỏ chuột xuống dòng dưới cùng để hoàn thành dòng vừa edit
+                if (dgv_namhoc.CurrentRow != null)
+                    dgv_namhoc.CurrentCell = dgv_namhoc.Rows[dgv_namhoc.Rows.Count - 1].Cells[dgv_namhoc.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_namhoc.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Trùng MÃ NĂM HỌC, vui lòng thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            catch { return; }
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)
@@ -151,6 +160,5 @@ namespace QuanLyHocSinhTHPT
             SelectRow();
         }
         #endregion
-
     }
 }

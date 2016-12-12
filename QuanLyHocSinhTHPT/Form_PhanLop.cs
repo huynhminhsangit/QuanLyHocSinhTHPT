@@ -21,6 +21,7 @@ namespace QuanLyHocSinhTHPT
         BindingSource bs = new BindingSource();
         int donghientai;
         #endregion
+        #region Load
         public Form_PhanLop()
         {
             InitializeComponent();
@@ -48,6 +49,7 @@ namespace QuanLyHocSinhTHPT
             else
                 donghientai = 0;
         }
+        #endregion
         #region Xử lý btn trên Toolstrip
         private void tsbtn_themmoi_Click(object sender, EventArgs e)
         {
@@ -62,6 +64,7 @@ namespace QuanLyHocSinhTHPT
             for (int i = 0; i < dgv_phanlop.Rows.Count - 1; ++i)
             {
                 dgv_phanlop.Rows[i].ReadOnly = true;
+                
             }
         }
 
@@ -94,17 +97,24 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_phanlop.CurrentRow != null)
-                dgv_phanlop.CurrentCell = dgv_phanlop.Rows[dgv_phanlop.Rows.Count - 1].Cells[dgv_phanlop.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_phanlop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu lại thất bại!");
+                if (dgv_phanlop.CurrentRow != null)
+                    dgv_phanlop.CurrentCell = dgv_phanlop.Rows[dgv_phanlop.Rows.Count - 1].Cells[dgv_phanlop.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_phanlop.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu lại thất bại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

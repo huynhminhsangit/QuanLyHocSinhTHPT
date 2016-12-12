@@ -20,5 +20,15 @@ namespace QuanLyHocSinhTHPT.Component
         {
             InitializeComponent();
         }
+
+        private void btn_dongy_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_huybo_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

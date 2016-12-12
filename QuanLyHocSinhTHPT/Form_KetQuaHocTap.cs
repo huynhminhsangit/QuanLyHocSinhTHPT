@@ -21,6 +21,7 @@ namespace QuanLyHocSinhTHPT
         BindingSource bs = new BindingSource();
         int donghientai;
         #endregion
+        #region Load
         public Form_KetQuaHocTap()
         {
             InitializeComponent();
@@ -42,6 +43,7 @@ namespace QuanLyHocSinhTHPT
             else
                 donghientai = 0;
         }
+        #endregion
         #region Xử lý btn trên Toolstrip
         private void tsbtn_themmoi_Click(object sender, EventArgs e)
         {
@@ -71,9 +73,10 @@ namespace QuanLyHocSinhTHPT
                 foreach (DataGridViewRow item in dgv_ketquahoctap.SelectedRows)
                     dgv_ketquahoctap.Rows.Remove(item);
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("Dữ liệu này nằm trong database. Hãy thử lại!");
+                return;
             }
         }
 
@@ -89,18 +92,22 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_ketquahoctap.CurrentRow != null)
-                dgv_ketquahoctap.CurrentCell = dgv_ketquahoctap.Rows[dgv_ketquahoctap.Rows.Count - 1].Cells[dgv_ketquahoctap.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_ketquahoctap.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
-                return;
+                if (dgv_ketquahoctap.CurrentRow != null)
+                    dgv_ketquahoctap.CurrentCell = dgv_ketquahoctap.Rows[dgv_ketquahoctap.Rows.Count - 1].Cells[dgv_ketquahoctap.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_ketquahoctap.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu thất bại, vui lòng thử lại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            catch { return; }
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

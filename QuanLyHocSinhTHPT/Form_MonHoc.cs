@@ -73,9 +73,10 @@ namespace QuanLyHocSinhTHPT
                 foreach (DataGridViewRow item in dgv_hocsinh.SelectedRows)
                     dgv_hocsinh.Rows.Remove(item);
             }
-            catch (Exception ex)
+            catch 
             {
                 MessageBox.Show("Dữ liệu này nằm trong database. Hãy thử lại!");
+                return;
             }
         }
 
@@ -91,17 +92,21 @@ namespace QuanLyHocSinhTHPT
 
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_hocsinh.CurrentRow != null)
-                dgv_hocsinh.CurrentCell = dgv_hocsinh.Rows[dgv_hocsinh.Rows.Count - 1].Cells[dgv_hocsinh.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_hocsinh.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu lại thất bại!");
-                return;
+                if (dgv_hocsinh.CurrentRow != null)
+                    dgv_hocsinh.CurrentCell = dgv_hocsinh.Rows[dgv_hocsinh.Rows.Count - 1].Cells[dgv_hocsinh.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_hocsinh.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu lại thất bại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            catch { return; }
         }
 
         private void tsbtn_capnhat_Click(object sender, EventArgs e)

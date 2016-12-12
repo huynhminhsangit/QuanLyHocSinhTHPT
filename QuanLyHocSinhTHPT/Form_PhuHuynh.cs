@@ -21,6 +21,7 @@ namespace QuanLyHocSinhTHPT
         BindingSource bs = new BindingSource();
         int donghientai;
         #endregion
+        #region Load
         public Form_PhuHuynh()
         {
             InitializeComponent();
@@ -44,6 +45,7 @@ namespace QuanLyHocSinhTHPT
             else
                 donghientai = 0;
         }
+        #endregion
         #region Xử lý btn trên Toolstrip
         private void tsbtn_themmoi_Click(object sender, EventArgs e)
         {
@@ -60,7 +62,6 @@ namespace QuanLyHocSinhTHPT
                 dgv_phuhuynh.Rows[i].ReadOnly = true;
             }
         }
-
         private void tsbtn_xoa_Click(object sender, EventArgs e)
         {
             try
@@ -77,7 +78,6 @@ namespace QuanLyHocSinhTHPT
                 MessageBox.Show("Xóa đối tượng thất bại. Hãy thử lại!");
             }
         }
-
         private void tsbtn_sua_Click(object sender, EventArgs e)
         {
             dgv_phuhuynh.AllowUserToAddRows = false;
@@ -87,27 +87,31 @@ namespace QuanLyHocSinhTHPT
             for (int i = 0; i < dgv_phuhuynh.Rows.Count - 1; ++i)
                 dgv_phuhuynh.Rows[i].ReadOnly = false;
         }
-
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {
-            if (dgv_phuhuynh.CurrentRow != null)
-                dgv_phuhuynh.CurrentCell = dgv_phuhuynh.Rows[dgv_phuhuynh.Rows.Count - 1].Cells[dgv_phuhuynh.CurrentCell.ColumnIndex];
-
-            DataTable dt = (DataTable)dgv_phuhuynh.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
-            if (bus.Update_All(dt) == false)
+            try
             {
-                MessageBox.Show("Lưu lại thất bại!");
+                if (dgv_phuhuynh.CurrentRow != null)
+                    dgv_phuhuynh.CurrentCell = dgv_phuhuynh.Rows[dgv_phuhuynh.Rows.Count - 1].Cells[dgv_phuhuynh.CurrentCell.ColumnIndex];
+
+                DataTable dt = (DataTable)dgv_phuhuynh.DataSource; // ép kiểu dữ liệu trong dataGridView là 1 DataTable
+                if (bus.Update_All(dt) == false)
+                {
+                    MessageBox.Show("Lưu lại thất bại!");
+                    return;
+                }
+                else
+                    MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
+            }
+            catch
+            {
                 return;
             }
-            else
-                MessageBox.Show("Lưu thành công! Hãy nhấn Refresh để kiểm tra lại.");
         }
-
         private void tsbtn_capnhat_Click(object sender, EventArgs e)
         {
             dgv_phuhuynh.DataSource = bus.LoadDataInto_DGVPhuHuynh();
         }
-
         private void tsbtn_thoat_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -153,5 +157,28 @@ namespace QuanLyHocSinhTHPT
             SelectRow();
         }
         #endregion  
+        #region Kiểm tra sđt hợp lệ
+        private void dgv_phuhuynh_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            try
+            {
+                if (e.ColumnIndex == dgv_phuhuynh.Columns[3].Index)
+                {
+                    dgv_phuhuynh.Rows[e.RowIndex].ErrorText = "";
+
+                    if (dgv_phuhuynh.Rows[e.RowIndex].IsNewRow) { return; }
+                    if (e.FormattedValue.ToString().Length < 10 || e.FormattedValue.ToString().Length > 11)
+                    {
+                        e.Cancel = true;
+                        dgv_phuhuynh.Rows[e.RowIndex].ErrorText = "SĐT chỉ từ 10 - 11 số";
+                    }
+                }
+            }
+            catch
+            {
+                return;
+            }
+        }
+        #endregion
     }
 }
