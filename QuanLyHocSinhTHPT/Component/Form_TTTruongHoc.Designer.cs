@@ -64,6 +64,7 @@
             this.txt_tentruong.Name = "txt_tentruong";
             this.txt_tentruong.Size = new System.Drawing.Size(294, 23);
             this.txt_tentruong.TabIndex = 1;
+            this.txt_tentruong.Text = "THPT Võ Thị Sáu";
             // 
             // txt_diachi
             // 
@@ -79,6 +80,7 @@
             this.txt_diachi.Name = "txt_diachi";
             this.txt_diachi.Size = new System.Drawing.Size(294, 23);
             this.txt_diachi.TabIndex = 3;
+            this.txt_diachi.Text = "Quận Bình Thạnh";
             // 
             // labelX2
             // 

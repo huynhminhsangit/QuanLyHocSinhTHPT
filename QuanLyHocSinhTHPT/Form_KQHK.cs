@@ -27,6 +27,7 @@ namespace QuanLyHocSinhTHPT
         BUS_KQHKTheoLop busKQHK     = new BUS_KQHKTheoLop();
         DTO_DiemSo      pDiemSo     = new DTO_DiemSo();
         DTO_KetQuaHocKy pKQHKy      = new DTO_KetQuaHocKy();
+        public static string namHoc, hocKy, lop, gvcnLop;
         #endregion
         #region Load
         // Lọc lớp theo năm, tránh trùng lặp lại lớp
@@ -98,7 +99,6 @@ namespace QuanLyHocSinhTHPT
 
             foreach (DataGridViewRow row in dgv_diemso.Rows)
             {
-                //MessageBox.Show("" + rowCount);
                 try
                 {
                     if (rowCount <= dgv_diemso.Rows.Count)
@@ -108,15 +108,13 @@ namespace QuanLyHocSinhTHPT
                         pKQHKy.MaLop = cbb_lop.SelectedValue.ToString();
                         pKQHKy.DiemTrungBinh = double.Parse(row.Cells[15].Value.ToString());
                     }
-                    //MessageBox.Show("" + row.Cells[0].Value.ToString() + ";" + "" + cbb_hocky.SelectedValue.ToString() + ";" + cbb_lop.SelectedValue.ToString());
-                    //MessageBox.Show("" + row.Cells[15].Value.ToString());
+
                     // Update điểm trung bình
                     busKQHK.LuuBangDiem_HocSinh_HocKy(pKQHKy);
                 }
-                catch (Exception ex)
+                catch 
                 {
-                    //MessageBox.Show("Bạn nên nhập đầy đủ danh sách trước khi bấm lưu!", "CẢNH BÁO");
-                    //return;
+                    return;
                 }
                 rowCount++;
             }
@@ -136,6 +134,11 @@ namespace QuanLyHocSinhTHPT
             lbl_hocky.Text = cbb_hocky.Text;
             lbl_lop.Text = cbb_lop.Text;
             lbl_gvcn.Text = busLop.LayTenGiaoVien_TheoMaLop(cbb_lop.SelectedValue.ToString());
+
+            namHoc = lbl_namhoc.Text;
+            hocKy = lbl_hocky.Text;
+            lop = lbl_lop.Text;
+            gvcnLop = lbl_gvcn.Text;
         }
         private void cbb_namhoc_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -234,6 +237,21 @@ namespace QuanLyHocSinhTHPT
             head.Font.Size = "18";
 
             head.HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
+
+
+            Microsoft.Office.Interop.Excel.Range infoclass = oSheet.get_Range("A2", "J2");
+
+            infoclass.MergeCells = true;
+
+            infoclass.Value2 = hocKy;
+
+            infoclass.Font.Bold = true;
+
+            infoclass.Font.Name = "Times New Roman";
+
+            infoclass.Font.Size = "13";
+
+            infoclass.HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
 
             // Tạo vùng hiển thị title
             Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "P3");

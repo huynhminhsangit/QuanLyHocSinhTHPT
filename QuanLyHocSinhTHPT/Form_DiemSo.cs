@@ -65,27 +65,12 @@ namespace QuanLyHocSinhTHPT
         }
         #endregion
         #region Xử lý btn trên Toolstrip
-        private void tsbtn_xoa_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tsbtn_sua_Click(object sender, EventArgs e)
-        {
-            dgv_diemso.AllowUserToAddRows = false;
-            // Mở khóa
-            dgv_diemso.ReadOnly = false;
-            // Mở khóa từng dòng
-            for (int i = 0; i < dgv_diemso.Rows.Count - 1; ++i)
-                dgv_diemso.Rows[i].ReadOnly = false;
-        }
         private void tsbtn_luu_Click(object sender, EventArgs e)
         {          
             int rowCount = 0;
           
             foreach (DataGridViewRow row in dgv_diemso.Rows)
             {
-                //MessageBox.Show("" + rowCount);
                 try
                 {
                     if (rowCount <= dgv_diemso.Rows.Count)
@@ -99,13 +84,11 @@ namespace QuanLyHocSinhTHPT
                         pDiemSo.Diem45P = double.Parse(row.Cells[4].Value.ToString());
                         pDiemSo.DiemThi = double.Parse(row.Cells[5].Value.ToString());
                         pDiemSo.DiemTrungBinh = double.Parse(row.Cells[6].Value.ToString());
-                    }
-                    //MessageBox.Show("" + row.Cells[0].Value.ToString() + ";" + "" + cbb_monhoc.SelectedValue.ToString() + ";" + cbb_hocky.SelectedValue.ToString() + ";" + cbb_lop.SelectedValue.ToString());
-                    //MessageBox.Show("" + row.Cells[2].Value.ToString() + ";" + row.Cells[3].Value.ToString() + ";" + row.Cells[4].Value.ToString() + ";" + row.Cells[5].Value.ToString() + ";" + row.Cells[6].Value.ToString());
+                    }                    
                     // Update điểm
                     bus.LuuBangDiem_HocSinh_MonHoc_HocKy(pDiemSo);                       
                 }
-                catch (Exception ex)
+                catch
                 {
                     MessageBox.Show("Bạn nên nhập đầy đủ danh sách trước khi bấm lưu!", "CẢNH BÁO");
                     return;

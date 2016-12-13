@@ -41,6 +41,7 @@
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanelDoTuoi = new DevComponents.DotNetBar.TabControlPanel();
+            this.integerInput3 = new DevComponents.Editors.IntegerInput();
             this.iinput_dotuoitoida = new DevComponents.Editors.IntegerInput();
             this.labelX02 = new DevComponents.DotNetBar.LabelX();
             this.labelX01 = new DevComponents.DotNetBar.LabelX();
@@ -48,7 +49,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_huybo = new DevComponents.DotNetBar.ButtonX();
             this.btn_dongy = new DevComponents.DotNetBar.ButtonX();
-            this.integerInput3 = new DevComponents.Editors.IntegerInput();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabControlPanelThangDiem.SuspendLayout();
@@ -56,18 +56,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.integerInput1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.integerInput2)).BeginInit();
             this.tabControlPanelDoTuoi.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.integerInput3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iinput_dotuoitoida)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.integerInput3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.tabControl1.CanReorderTabs = true;
+            this.tabControl1.Controls.Add(this.tabControlPanelDoTuoi);
             this.tabControl1.Controls.Add(this.tabControlPanelThangDiem);
             this.tabControl1.Controls.Add(this.tabControlPanelSiSo);
-            this.tabControl1.Controls.Add(this.tabControlPanelDoTuoi);
             this.tabControl1.Location = new System.Drawing.Point(-4, -1);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
@@ -257,6 +257,23 @@
             this.tabControlPanelDoTuoi.TabIndex = 1;
             this.tabControlPanelDoTuoi.TabItem = this.tabItem1;
             // 
+            // integerInput3
+            // 
+            // 
+            // 
+            // 
+            this.integerInput3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.integerInput3.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.integerInput3.Location = new System.Drawing.Point(203, 42);
+            this.integerInput3.Margin = new System.Windows.Forms.Padding(4);
+            this.integerInput3.MaxValue = 15;
+            this.integerInput3.MinValue = 15;
+            this.integerInput3.Name = "integerInput3";
+            this.integerInput3.ShowUpDown = true;
+            this.integerInput3.Size = new System.Drawing.Size(221, 23);
+            this.integerInput3.TabIndex = 7;
+            this.integerInput3.Value = 15;
+            // 
             // iinput_dotuoitoida
             // 
             // 
@@ -346,23 +363,6 @@
             this.btn_dongy.Text = "Đồng ý";
             this.btn_dongy.Click += new System.EventHandler(this.btn_dongy_Click);
             // 
-            // integerInput3
-            // 
-            // 
-            // 
-            // 
-            this.integerInput3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.integerInput3.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.integerInput3.Location = new System.Drawing.Point(203, 42);
-            this.integerInput3.Margin = new System.Windows.Forms.Padding(4);
-            this.integerInput3.MaxValue = 15;
-            this.integerInput3.MinValue = 15;
-            this.integerInput3.Name = "integerInput3";
-            this.integerInput3.ShowUpDown = true;
-            this.integerInput3.Size = new System.Drawing.Size(221, 23);
-            this.integerInput3.TabIndex = 7;
-            this.integerInput3.Value = 15;
-            // 
             // Form_QuyDinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -390,9 +390,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.integerInput2)).EndInit();
             this.tabControlPanelDoTuoi.ResumeLayout(false);
             this.tabControlPanelDoTuoi.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.integerInput3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iinput_dotuoitoida)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.integerInput3)).EndInit();
             this.ResumeLayout(false);
 
         }

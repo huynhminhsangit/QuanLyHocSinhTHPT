@@ -59,8 +59,6 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbtn_xoa = new System.Windows.Forms.ToolStripButton();
-            this.tsbtn_sua = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_luu = new System.Windows.Forms.ToolStripButton();
             this.tsbtn_thoat = new System.Windows.Forms.ToolStripButton();
             this.buttonItemNhapDuLieu = new DevComponents.DotNetBar.ButtonItem();
@@ -95,7 +93,7 @@
             this.groupBox.Controls.Add(this.bindingNavigatorDiemSo);
             this.groupBox.Location = new System.Drawing.Point(196, 0);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(1022, 501);
+            this.groupBox.Size = new System.Drawing.Size(1036, 508);
             this.groupBox.TabIndex = 2;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Danh sách học sinh";
@@ -206,7 +204,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgv_diemso.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_diemso.Size = new System.Drawing.Size(1016, 447);
+            this.dgv_diemso.Size = new System.Drawing.Size(1030, 454);
             this.dgv_diemso.TabIndex = 8;
             this.dgv_diemso.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_diemso_CellEndEdit);
             this.dgv_diemso.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgv_diemso_CellValidating);
@@ -292,8 +290,6 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
-            this.tsbtn_xoa,
-            this.tsbtn_sua,
             this.tsbtn_luu,
             this.tsbtn_thoat});
             this.bindingNavigatorDiemSo.Location = new System.Drawing.Point(3, 19);
@@ -303,7 +299,7 @@
             this.bindingNavigatorDiemSo.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigatorDiemSo.Name = "bindingNavigatorDiemSo";
             this.bindingNavigatorDiemSo.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigatorDiemSo.Size = new System.Drawing.Size(1016, 25);
+            this.bindingNavigatorDiemSo.Size = new System.Drawing.Size(1030, 25);
             this.bindingNavigatorDiemSo.TabIndex = 7;
             this.bindingNavigatorDiemSo.Text = "bindingNavigatorDiemSo";
             // 
@@ -374,26 +370,6 @@
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
-            // tsbtn_xoa
-            // 
-            this.tsbtn_xoa.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtn_xoa.Image = global::QuanLyHocSinhTHPT.Properties.Resources.delete;
-            this.tsbtn_xoa.Name = "tsbtn_xoa";
-            this.tsbtn_xoa.RightToLeftAutoMirrorImage = true;
-            this.tsbtn_xoa.Size = new System.Drawing.Size(23, 22);
-            this.tsbtn_xoa.Text = "Xóa";
-            this.tsbtn_xoa.Click += new System.EventHandler(this.tsbtn_xoa_Click);
-            // 
-            // tsbtn_sua
-            // 
-            this.tsbtn_sua.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtn_sua.Image = global::QuanLyHocSinhTHPT.Properties.Resources.edit;
-            this.tsbtn_sua.Name = "tsbtn_sua";
-            this.tsbtn_sua.RightToLeftAutoMirrorImage = true;
-            this.tsbtn_sua.Size = new System.Drawing.Size(23, 22);
-            this.tsbtn_sua.Text = "Sửa";
-            this.tsbtn_sua.Click += new System.EventHandler(this.tsbtn_sua_Click);
-            // 
             // tsbtn_luu
             // 
             this.tsbtn_luu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -437,7 +413,7 @@
             this.navPaneLeft.Name = "navPaneLeft";
             this.navPaneLeft.NavigationBarHeight = 67;
             this.navPaneLeft.Padding = new System.Windows.Forms.Padding(1);
-            this.navPaneLeft.Size = new System.Drawing.Size(190, 635);
+            this.navPaneLeft.Size = new System.Drawing.Size(190, 649);
             this.navPaneLeft.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.navPaneLeft.TabIndex = 3;
             // 
@@ -477,7 +453,7 @@
             this.navPanelNhapDuLieu.Location = new System.Drawing.Point(1, 25);
             this.navPanelNhapDuLieu.Name = "navPanelNhapDuLieu";
             this.navPanelNhapDuLieu.ParentItem = this.buttonItem1;
-            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(188, 542);
+            this.navPanelNhapDuLieu.Size = new System.Drawing.Size(188, 556);
             this.navPanelNhapDuLieu.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navPanelNhapDuLieu.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navPanelNhapDuLieu.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -595,7 +571,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1230, 635);
+            this.ClientSize = new System.Drawing.Size(1258, 649);
             this.Controls.Add(this.navPaneLeft);
             this.Controls.Add(this.groupBox);
             this.DoubleBuffered = true;
@@ -634,8 +610,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton tsbtn_xoa;
-        private System.Windows.Forms.ToolStripButton tsbtn_sua;
         private System.Windows.Forms.ToolStripButton tsbtn_luu;
         private System.Windows.Forms.ToolStripButton tsbtn_thoat;
         private DevComponents.DotNetBar.ButtonItem buttonItemNhapDuLieu;
