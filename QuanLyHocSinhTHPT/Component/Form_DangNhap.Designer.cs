@@ -122,9 +122,9 @@
             this.txt_matkhau.Name = "txt_matkhau";
             this.txt_matkhau.Size = new System.Drawing.Size(241, 23);
             this.txt_matkhau.TabIndex = 7;
-            this.txt_matkhau.Text = "admin";
             this.txt_matkhau.UseSystemPasswordChar = true;
             this.txt_matkhau.WatermarkText = "Mật khẩu";
+            this.txt_matkhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_matkhau_KeyDown);
             // 
             // labelX2
             // 
@@ -154,7 +154,6 @@
             this.txt_tendangnhap.Name = "txt_tendangnhap";
             this.txt_tendangnhap.Size = new System.Drawing.Size(241, 23);
             this.txt_tendangnhap.TabIndex = 5;
-            this.txt_tendangnhap.Text = "admin";
             this.txt_tendangnhap.WatermarkText = "Tên đăng nhập";
             // 
             // labelX1

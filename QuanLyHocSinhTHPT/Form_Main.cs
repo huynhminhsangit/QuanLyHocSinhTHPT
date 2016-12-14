@@ -45,12 +45,13 @@ namespace QuanLyHocSinhTHPT
             // Hiển thị người dùng nào đang Login??
             if (string.IsNullOrEmpty(userName) == false)
             {
-                if (userName == "admin")
+                if (userName == "admin" || userName == "bangiamhieu")
                     GuiAdmin();
                 if (userName == "giaovu")
                     GuiGiaoVu();
                 if (userName == "giaovien")
                     GuiGiaoVien();
+
                 lbl_usernamelogin.Text = userName;
                 // Đăng nhập thành công thì
                 btn_dangxuat.Enabled = true;
@@ -127,7 +128,9 @@ namespace QuanLyHocSinhTHPT
             rbb_quydinh.Enabled = true;
             rbb_tracuu.Enabled = true;
             rbb_monhoc.Enabled = true;
-            rbb_danhsach.Enabled = true; 
+            rbb_danhsach.Enabled = true;
+            rbb_kqcanam.Enabled = true;
+            rbb_kqhocky.Enabled = true;
             // Các control không được sử dụng
             btn_dangxuat.Enabled = false;
             btn_dangxuatcontext.Enabled = false;
@@ -135,9 +138,7 @@ namespace QuanLyHocSinhTHPT
             btn_doimatkhau.Enabled = false;
             btn_doimatkhaucontext.Enabled = false;
             rbb_ketquahoctap.Enabled = false;
-            rbb_khoilop.Enabled = false;
-            rbb_kqcanam.Enabled = false;
-            rbb_kqhocky.Enabled = false;      
+            rbb_khoilop.Enabled = false;            
             rbb_namhochocky.Enabled = false;
             btn_diemso.Enabled = false;
         }
@@ -154,6 +155,8 @@ namespace QuanLyHocSinhTHPT
             rbb_tracuu.Enabled = true;
             rbb_danhsach.Enabled = true;
             rbb_monhoc.Enabled = true;
+            rbb_kqcanam.Enabled = true;
+            rbb_kqhocky.Enabled = true;
             // Các control không được sử dụng
             btn_dangxuat.Enabled = false;
             btn_dangxuatcontext.Enabled = false;
@@ -162,8 +165,6 @@ namespace QuanLyHocSinhTHPT
             btn_doimatkhaucontext.Enabled = false;
             rbb_ketquahoctap.Enabled = false;
             rbb_khoilop.Enabled = false;
-            rbb_kqcanam.Enabled = false;
-            rbb_kqhocky.Enabled = false;
             rbb_namhochocky.Enabled = false;
             rbb_giaovien.Enabled = false;      
             rbb_hocsinh.Enabled = false;
@@ -187,7 +188,6 @@ namespace QuanLyHocSinhTHPT
             frmDangNhap.ShowDialog();    
             DangNhap();
         }
-
         private void btn_dangxuat_Click(object sender, EventArgs e)
         {
             this.lbl_usernamelogin.Text = "Không có";
@@ -200,22 +200,18 @@ namespace QuanLyHocSinhTHPT
                 frmDoiMatKhau = new Form_DoiMatKhau();
             frmDoiMatKhau.ShowDialog();    
         }
-
         private void btn_qlnguoidung_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Tính năng đang hoàn thiện. Vui lòng quay lại sau.");
         }
-
         private void btn_saoluucsdl_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Tính năng đang hoàn thiện. Vui lòng quay lại sau.");
         }
-
         private void btn_phuchoicsdl_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Tính năng đang hoàn thiện. Vui lòng quay lại sau.");
         }
-
         private void btn_dongchuongtrinh_Click(object sender, EventArgs e)
         {
             DialogResult r = MessageBox.Show("Bạn có chắc chắn muốn thoát khỏi chương trình?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);

@@ -327,6 +327,7 @@ CREATE TABLE PHANCONG
 	CONSTRAINT P_PC_MONHOC			FOREIGN KEY(MAMONHOC)	REFERENCES MONHOC(MAMONHOC),
 	CONSTRAINT P_PC_GIAOVIEN		FOREIGN KEY(MAGIAOVIEN)	REFERENCES GIAOVIEN(MAGIAOVIEN)
 )
+--INSERT INTO PHANCONG(MANAMHOC, MALOP, MAMONHOC, MAGIAOVIEN) VALUES('')
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 --/* OK */
 CREATE TABLE DIEMSO
@@ -346,7 +347,7 @@ CREATE TABLE DIEMSO
 	CONSTRAINT F_DIEM_MH	FOREIGN KEY(MAMONHOC)	REFERENCES MONHOC(MAMONHOC),
 	CONSTRAINT F_DIEM_LOP	FOREIGN KEY(MALOP)		REFERENCES LOP(MALOP)
 )
-
+INSERT INTO DIEMSO(MAHOCSINH, MAMONHOC, MAHOCKY, MALOP) VALUES('HS01', 'MH01','HK1','14151001')
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 --/* OK */
 CREATE TABLE KETQUAHOCKY

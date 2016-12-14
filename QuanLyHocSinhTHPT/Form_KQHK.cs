@@ -239,20 +239,6 @@ namespace QuanLyHocSinhTHPT
             head.HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
 
 
-            Microsoft.Office.Interop.Excel.Range infoclass = oSheet.get_Range("A2", "J2");
-
-            infoclass.MergeCells = true;
-
-            infoclass.Value2 = hocKy;
-
-            infoclass.Font.Bold = true;
-
-            infoclass.Font.Name = "Times New Roman";
-
-            infoclass.Font.Size = "13";
-
-            infoclass.HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
-
             // Tạo vùng hiển thị title
             Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "P3");
 

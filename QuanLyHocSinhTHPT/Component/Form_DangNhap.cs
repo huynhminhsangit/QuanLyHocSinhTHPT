@@ -26,7 +26,7 @@ namespace QuanLyHocSinhTHPT
 
         private void Form_DangNhap_Load(object sender, EventArgs e)
         {
-
+            txt_tendangnhap.Focus();
         }
 
         private void btn_dangnhap_Click(object sender, EventArgs e)
@@ -72,6 +72,49 @@ namespace QuanLyHocSinhTHPT
         private void btn_huybo_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txt_matkhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    string tendangnhap = txt_tendangnhap.Text;
+                    string matkhau = txt_matkhau.Text;
+                    int count = bus.ReadUserName_PassWord(tendangnhap, matkhau).Rows.Count;
+
+                    if (string.IsNullOrEmpty(tendangnhap))
+                    {
+                        MessageBox.Show("Bạn chưa nhập tên đăng nhập!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                        return;
+                    }
+                    else if (string.IsNullOrEmpty(matkhau))
+                    {
+                        MessageBox.Show("Bạn chưa nhập mật khẩu!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                        return;
+                    }
+                    // Đăng nhập thành công
+                    if (count != 0)
+                    {
+                        Form_Main.userName = tendangnhap;
+                        this.Close();
+                        // Đăng nhập xong thì xóa text trong textbox
+                        txt_tendangnhap.Clear();
+                        txt_matkhau.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Login Failse! User & Pass not match.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                        return;
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Login Failse! User & Pass not match.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    return;
+                }
+            }
         }
     }
 }
